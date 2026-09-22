@@ -17,11 +17,23 @@ export async function saveResult({ testSlug, resultType, answers }) {
   return id
 }
 
+/** AI 장문 분석 결과를 저장하고 공유용 id를 돌려준다. */
+export async function saveAiResult({ testSlug, answers, analysis }) {
+  const id = genId()
+  if (!supabase) return id
+
+  const { error } = await supabase
+    .from('pt_results')
+    .insert({ id, test_slug: testSlug, answers, ai_analysis: analysis })
+  if (error) throw error
+  return id
+}
+
 export async function getResult(id) {
   if (!supabase) return null
   const { data, error } = await supabase
     .from('pt_results')
-    .select('id, test_slug, result_type, answers, created_at')
+    .select('id, test_slug, result_type, answers, ai_analysis, created_at')
     .eq('id', id)
     .maybeSingle()
   if (error) throw error

@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Test from './pages/Test'
+import AiTest from './pages/AiTest'
 import Result from './pages/Result'
 import Compat from './pages/Compat'
 
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/test/:slug" element={<Test />} />
+        <Route path="/ai-test/:slug" element={<AiTest />} />
         <Route path="/result/:id" element={<Result />} />
         <Route path="/compat" element={<Compat />} />
         <Route path="*" element={<Home />} />

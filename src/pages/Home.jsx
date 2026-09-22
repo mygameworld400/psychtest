@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { tests } from '../data/tests/sample'
+import { aiTests } from '../data/tests/rewind'
 
 export default function Home() {
   return (
@@ -7,6 +8,11 @@ export default function Home() {
       <h1>심리테스트</h1>
       <p>테스트하고 결과 링크로 친구·커플이랑 궁합도 확인해보세요.</p>
       <ul className="test-list">
+        {Object.values(aiTests).map((t) => (
+          <li key={t.slug}>
+            <Link to={`/ai-test/${t.slug}`}>{t.title}</Link>
+          </li>
+        ))}
         {Object.values(tests).map((t) => (
           <li key={t.slug}>
             <Link to={`/test/${t.slug}`}>{t.title}</Link>
