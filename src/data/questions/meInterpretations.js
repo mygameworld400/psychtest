@@ -1,72 +1,22 @@
-// 차원별 점수 구간(낮음/중간/높음) 해석 문장. AI가 아니라 정적 텍스트로 시작하고,
-// 나중에 AI 설명(자연어 요약)으로 교체하거나 보완할 수 있다.
-export const meInterpretations = {
-  contact_need: {
-    high: '연락은 관계가 잘 흘러가고 있다는 확인 수단에 가까워요. 뜸해지면 애정보다 먼저 불안이 커지는 편.',
-    mid: '연락 빈도에 크게 흔들리지는 않지만, 아예 신경 안 쓰이는 것도 아니에요.',
-    low: '연락 빈도 자체보다 만났을 때의 밀도를 더 중요하게 보는 편이에요.',
-  },
-  personal_space: {
-    high: '각자의 시간과 공간을 지키는 게 관계 유지에 필수라고 보는 편이에요.',
-    mid: '개인 공간이 필요하긴 하지만 상황에 따라 유연하게 조절하는 편.',
-    low: '따로 있는 시간보다 같이 보내는 시간에 더 의미를 두는 편이에요.',
-  },
-  money_saving: {
-    high: '연애 중에도 재정 계획을 먼저 챙기는, 현실적인 쪽에 가까워요.',
-    mid: '돈 문제에 극단적이지 않고 상황 봐가며 균형을 맞추는 편.',
-    low: '지금 이 순간의 관계에 쓰는 게 아깝지 않다고 느끼는 편이에요.',
-  },
-  marriage_readiness: {
-    high: '연애를 시작하면 자연스럽게 결혼·미래까지 그려보는 편이에요.',
-    mid: '결혼을 아예 배제하진 않지만 지금 당장의 우선순위는 아니에요.',
-    low: '지금은 관계 자체에 집중하고 싶은, 미래보다 현재형에 가까워요.',
-  },
-  trust_boundary: {
-    high: '투명하게 공유하는 것 자체를 신뢰의 증거로 여기는 편이에요.',
-    mid: '어느 정도의 공유는 필요하다고 보지만 강요하진 않는 편.',
-    low: '공유하지 않아도 각자의 사생활은 지켜져야 한다고 보는 편이에요.',
-  },
-  conflict_speed: {
-    high: '싸우면 그 자리에서 바로 풀어야 마음이 놓이는, 즉시 해결형에 가까워요.',
-    mid: '상황 봐가며 바로 풀 때도, 시간을 둘 때도 있는 편.',
-    low: '감정이 정리될 시간이 먼저 필요한, 냉각기 선호형에 가까워요.',
-  },
-  initiative: {
-    high: '계획과 결정을 먼저 주도하는 편이에요.',
-    mid: '주도할 때도 따를 때도 있는, 상황에 따라 유연한 편.',
-    low: '상대가 이끄는 흐름을 따라가는 게 더 편한 편이에요.',
-  },
-  planning: {
-    high: '미리 세세하게 계획해야 마음이 놓이는 편이에요.',
-    mid: '큰 틀만 정해두고 나머지는 유연하게 가는 편.',
-    low: '즉흥적으로 흘러가는 쪽이 더 즐거운 편이에요.',
-  },
-  empathy_vs_solving: {
-    high: '힘든 이야기를 들으면 해결책부터 찾고 싶어지는 편이에요.',
-    mid: '공감과 해결책 사이를 상황 봐가며 오가는 편.',
-    low: '일단 들어주고 공감하는 게 먼저라고 생각하는 편이에요.',
-  },
-  affection_expression: {
-    high: '좋아하는 마음을 말과 스킨십으로 자주, 적극적으로 표현하는 편이에요.',
-    mid: '표현할 때도 아낄 때도 있는 편.',
-    low: '마음은 있어도 표현은 서툴고 무뚝뚝한 편이에요.',
-  },
-  jealousy_sensitivity: {
-    high: '상대의 이성 관계에 신경이 꽤 쓰이는 편이에요.',
-    mid: '상황에 따라 신경 쓰일 때도, 아닐 때도 있는 편.',
-    low: '상대의 인간관계를 크게 통제하려 하지 않는 편이에요.',
-  },
-  independence: {
-    high: '연애 중에도 자기 일·생활의 중심을 잃지 않는 편이에요.',
-    mid: '관계와 자기 생활 사이에서 균형을 맞추려는 편.',
-    low: '연애를 시작하면 생활의 중심이 상대에게 자연스럽게 옮겨가는 편이에요.',
-  },
+// 차원이 70개가 넘어가면서 차원마다 문장을 일일이 손으로 쓰는 건 지속 가능하지 않다.
+// (실제로는 여기 마스터 스펙 16번 원칙대로 "AI가 계산된 점수를 설명"하는 게 맞는 설계다 —
+// OpenAI 크레딧이 준비되면 이 함수를 그 자리로 교체하면 된다.)
+// 그때까지는 차원명 자체가 이미 서술형이라는 점을 살려 일관된 톤의 일반화 문장을 만든다.
+
+function particle(label, withHas, withoutHas) {
+  const last = label.charCodeAt(label.length - 1)
+  const hasBatchim = last >= 0xac00 && last <= 0xd7a3 && (last - 0xac00) % 28 !== 0
+  return hasBatchim ? withHas : withoutHas
 }
 
 export function interpretationFor(dimensionKey, score) {
-  const set = meInterpretations[dimensionKey]
-  if (!set) return ''
-  if (score >= 65) return set.high ?? ''
-  if (score <= 35) return set.low ?? ''
-  return set.mid ?? ''
+  const label = dimensionKey
+  const eun = particle(label, '은', '는')
+  const i = particle(label, '이', '가')
+
+  if (score >= 80) return `'${label}'${i} 답변에서 뚜렷하게 강하게 나타났어요.`
+  if (score >= 65) return `'${label}'${eun} 답변 전반에서 비교적 높게 나타나는 편이에요.`
+  if (score <= 20) return `'${label}'${eun} 답변에서 거의 드러나지 않았어요.`
+  if (score <= 35) return `'${label}'${eun} 답변에서 상대적으로 약하게 나타나는 편이에요.`
+  return `'${label}'${eun} 특별히 강하지도 약하지도 않은, 평범한 수준으로 나타났어요.`
 }

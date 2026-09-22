@@ -1,10 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import meQuestionBank from '../data/questions/me.v1.json'
 import { getMeResult } from '../services/assessmentService'
 import { computePair, pairTypeLabel } from '../services/mePairEngine'
-
-const DIMENSION_LABELS = Object.fromEntries(meQuestionBank.dimensions.map((d) => [d.key, d.label]))
 
 function toScoreMap(scores) {
   return Object.fromEntries(scores.map((s) => [s.dimension_key, s.normalized_score]))
@@ -76,8 +73,8 @@ export default function MePair() {
                 {pair.strong.slice(0, 4).map((r) => (
                   <li key={r.dimension}>
                     <div>
-                      {DIMENSION_LABELS[r.dimension] ?? r.dimension}
-                      <span className="pair-list-score">{r.similarity}</span>
+                      {r.dimension}
+                      <span className="pair-list-score">{r.score}</span>
                     </div>
                   </li>
                 ))}
@@ -87,15 +84,28 @@ export default function MePair() {
 
           {pair.weak.length > 0 && (
             <>
-              <h2 className="section-title">충돌할 가능성이 있는 부분</h2>
+              <h2 className="section-title">엇갈리는 부분</h2>
               <ul className="pair-list">
                 {pair.weak.slice(0, 4).map((r) => (
                   <li key={r.dimension}>
                     <div>
-                      {DIMENSION_LABELS[r.dimension] ?? r.dimension}
-                      <span className="pair-list-score">{r.similarity}</span>
+                      {r.dimension}
+                      <span className="pair-list-score">{r.score}</span>
                     </div>
-                    {r.friction && <p className="pair-friction">{r.friction.detail}</p>}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
+          {pair.frictions.length > 0 && (
+            <>
+              <h2 className="section-title">충돌할 가능성이 있는 부분</h2>
+              <ul className="pair-list">
+                {pair.frictions.map((f) => (
+                  <li key={f.label}>
+                    <div>{f.label}</div>
+                    <p className="pair-friction">{f.detail}</p>
                   </li>
                 ))}
               </ul>

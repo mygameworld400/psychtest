@@ -1,58 +1,865 @@
 {
-  "version": "me.v1",
+  "version": "me.v2",
   "product": "ME",
   "dimensions": [
-    { "key": "contact_need", "label": "연락 욕구" },
-    { "key": "personal_space", "label": "개인 공간" },
-    { "key": "money_saving", "label": "돈/저축 성향" },
-    { "key": "marriage_readiness", "label": "결혼/자녀 지향" },
-    { "key": "trust_boundary", "label": "신뢰 경계(투명성 요구)" },
-    { "key": "conflict_speed", "label": "갈등 해결 속도" },
-    { "key": "initiative", "label": "주도권" },
-    { "key": "planning", "label": "계획성" },
-    { "key": "empathy_vs_solving", "label": "공감 우선 vs 해결 우선" },
-    { "key": "affection_expression", "label": "애정 표현 강도" },
-    { "key": "jealousy_sensitivity", "label": "질투 민감도" },
-    { "key": "independence", "label": "독립성" }
+    {
+      "key": "개인공간욕구",
+      "label": "개인공간욕구"
+    },
+    {
+      "key": "독립성",
+      "label": "독립성"
+    },
+    {
+      "key": "친밀감욕구",
+      "label": "친밀감욕구"
+    },
+    {
+      "key": "관계중심성",
+      "label": "관계중심성"
+    },
+    {
+      "key": "연락욕구",
+      "label": "연락욕구"
+    },
+    {
+      "key": "확신욕구",
+      "label": "확신욕구"
+    },
+    {
+      "key": "버림받음민감도",
+      "label": "버림받음민감도"
+    },
+    {
+      "key": "사생활존중",
+      "label": "사생활존중"
+    },
+    {
+      "key": "투명성요구",
+      "label": "투명성요구"
+    },
+    {
+      "key": "질투민감도",
+      "label": "질투민감도"
+    },
+    {
+      "key": "경계심",
+      "label": "경계심"
+    },
+    {
+      "key": "신뢰초기값",
+      "label": "신뢰초기값"
+    },
+    {
+      "key": "기억누적성",
+      "label": "기억누적성"
+    },
+    {
+      "key": "용서성",
+      "label": "용서성"
+    },
+    {
+      "key": "갈등후회복속도",
+      "label": "갈등후회복속도"
+    },
+    {
+      "key": "즉시해결욕구",
+      "label": "즉시해결욕구"
+    },
+    {
+      "key": "냉각시간욕구",
+      "label": "냉각시간욕구"
+    },
+    {
+      "key": "회피성",
+      "label": "회피성"
+    },
+    {
+      "key": "감정공감욕구",
+      "label": "감정공감욕구"
+    },
+    {
+      "key": "논리설득욕구",
+      "label": "논리설득욕구"
+    },
+    {
+      "key": "원인규명욕구",
+      "label": "원인규명욕구"
+    },
+    {
+      "key": "사과필요도",
+      "label": "사과필요도"
+    },
+    {
+      "key": "과거재소환",
+      "label": "과거재소환"
+    },
+    {
+      "key": "보복반응",
+      "label": "보복반응"
+    },
+    {
+      "key": "침묵반응",
+      "label": "침묵반응"
+    },
+    {
+      "key": "관계회복지향",
+      "label": "관계회복지향"
+    },
+    {
+      "key": "승패지향",
+      "label": "승패지향"
+    },
+    {
+      "key": "주도권욕구",
+      "label": "주도권욕구"
+    },
+    {
+      "key": "통제욕구",
+      "label": "통제욕구"
+    },
+    {
+      "key": "유연성",
+      "label": "유연성"
+    },
+    {
+      "key": "변화수용성",
+      "label": "변화수용성"
+    },
+    {
+      "key": "문제해결지향",
+      "label": "문제해결지향"
+    },
+    {
+      "key": "공감지향",
+      "label": "공감지향"
+    },
+    {
+      "key": "위험감수",
+      "label": "위험감수"
+    },
+    {
+      "key": "안정추구",
+      "label": "안정추구"
+    },
+    {
+      "key": "신중성",
+      "label": "신중성"
+    },
+    {
+      "key": "계획성",
+      "label": "계획성"
+    },
+    {
+      "key": "즉흥성",
+      "label": "즉흥성"
+    },
+    {
+      "key": "소비성향",
+      "label": "소비성향"
+    },
+    {
+      "key": "현재중심성",
+      "label": "현재중심성"
+    },
+    {
+      "key": "저축성향",
+      "label": "저축성향"
+    },
+    {
+      "key": "미래지향성",
+      "label": "미래지향성"
+    },
+    {
+      "key": "재정통합선호",
+      "label": "재정통합선호"
+    },
+    {
+      "key": "경제독립선호",
+      "label": "경제독립선호"
+    },
+    {
+      "key": "커리어우선",
+      "label": "커리어우선"
+    },
+    {
+      "key": "관계우선",
+      "label": "관계우선"
+    },
+    {
+      "key": "가사공정성",
+      "label": "가사공정성"
+    },
+    {
+      "key": "결혼의향",
+      "label": "결혼의향"
+    },
+    {
+      "key": "자녀의향",
+      "label": "자녀의향"
+    },
+    {
+      "key": "가족개입허용",
+      "label": "가족개입허용"
+    },
+    {
+      "key": "장기계획일치욕구",
+      "label": "장기계획일치욕구"
+    },
+    {
+      "key": "사랑표현_말",
+      "label": "사랑표현_말"
+    },
+    {
+      "key": "감정표현성",
+      "label": "감정표현성"
+    },
+    {
+      "key": "사랑표현_시간",
+      "label": "사랑표현_시간"
+    },
+    {
+      "key": "사랑표현_스킨십",
+      "label": "사랑표현_스킨십"
+    },
+    {
+      "key": "사랑표현_선물",
+      "label": "사랑표현_선물"
+    },
+    {
+      "key": "사랑표현_실질도움",
+      "label": "사랑표현_실질도움"
+    },
+    {
+      "key": "받는사랑_말",
+      "label": "받는사랑_말"
+    },
+    {
+      "key": "받는사랑_시간",
+      "label": "받는사랑_시간"
+    },
+    {
+      "key": "받는사랑_스킨십",
+      "label": "받는사랑_스킨십"
+    },
+    {
+      "key": "받는사랑_선물",
+      "label": "받는사랑_선물"
+    },
+    {
+      "key": "받는사랑_실질도움",
+      "label": "받는사랑_실질도움"
+    },
+    {
+      "key": "정서의존",
+      "label": "정서의존"
+    },
+    {
+      "key": "자율성",
+      "label": "자율성"
+    },
+    {
+      "key": "책임귀인_자기",
+      "label": "책임귀인_자기"
+    },
+    {
+      "key": "책임귀인_상황",
+      "label": "책임귀인_상황"
+    },
+    {
+      "key": "결정속도",
+      "label": "결정속도"
+    },
+    {
+      "key": "감정억제성",
+      "label": "감정억제성"
+    },
+    {
+      "key": "타협성",
+      "label": "타협성"
+    },
+    {
+      "key": "이상추구",
+      "label": "이상추구"
+    }
   ],
   "items": [
-    { "id": "contact_need_1", "type": "likert", "text": "연락이 몇 시간만 뜸해도 불안해진다.", "dimensions": ["contact_need"], "reverse": false },
-    { "id": "contact_need_2", "type": "likert", "text": "하루 종일 연락이 없어도 크게 신경 쓰이지 않는다.", "dimensions": ["contact_need"], "reverse": true },
-
-    { "id": "personal_space_1", "type": "likert", "text": "연인이 혼자만의 시간을 요청하면 서운함이 앞선다.", "dimensions": ["personal_space"], "reverse": true },
-    { "id": "personal_space_2", "type": "likert", "text": "나에게도 연인에게도 각자만의 시간이 꼭 필요하다고 생각한다.", "dimensions": ["personal_space"], "reverse": false },
-
-    { "id": "money_saving_1", "type": "likert", "text": "연애할 때도 저축·재테크 계획을 우선적으로 챙긴다.", "dimensions": ["money_saving"], "reverse": false },
-    { "id": "money_saving_2", "type": "likert", "text": "돈은 있을 때 관계를 위해 쓰는 게 맞다고 생각한다.", "dimensions": ["money_saving"], "reverse": true },
-
-    { "id": "marriage_readiness_1", "type": "likert", "text": "연애를 시작하면 결혼까지 자연스럽게 그려보게 된다.", "dimensions": ["marriage_readiness"], "reverse": false },
-    { "id": "marriage_readiness_2", "type": "likert", "text": "지금은 결혼·자녀보다 관계 자체에 집중하고 싶다.", "dimensions": ["marriage_readiness"], "reverse": true },
-
-    { "id": "trust_boundary_1", "type": "likert", "text": "연인의 휴대폰이나 SNS를 공유하는 게 신뢰의 증거라고 생각한다.", "dimensions": ["trust_boundary"], "reverse": false },
-    { "id": "trust_boundary_2", "type": "likert", "text": "연인의 사생활은 나와 공유하지 않아도 존중받아야 한다.", "dimensions": ["trust_boundary"], "reverse": true },
-
-    { "id": "conflict_speed_1", "type": "likert", "text": "싸우면 그 자리에서 바로 풀어야 마음이 편하다.", "dimensions": ["conflict_speed"], "reverse": false },
-    { "id": "conflict_speed_2", "type": "likert", "text": "싸운 직후엔 혼자 정리할 시간이 먼저 필요하다.", "dimensions": ["conflict_speed"], "reverse": true },
-
-    { "id": "initiative_1", "type": "likert", "text": "데이트 계획이나 결정을 내가 먼저 주도하는 편이다.", "dimensions": ["initiative"], "reverse": false },
-    { "id": "initiative_2", "type": "likert", "text": "상대가 정해주는 대로 따라가는 게 더 편하다.", "dimensions": ["initiative"], "reverse": true },
-
-    { "id": "planning_1", "type": "likert", "text": "여행이나 기념일은 미리 세세하게 계획해야 마음이 놓인다.", "dimensions": ["planning"], "reverse": false },
-    { "id": "planning_2", "type": "likert", "text": "즉흥적으로 흘러가는 연애가 더 재미있다.", "dimensions": ["planning"], "reverse": true },
-
-    { "id": "empathy_1", "type": "likert", "text": "연인이 힘들어하면 해결책부터 제시하고 싶어진다.", "dimensions": ["empathy_vs_solving"], "reverse": false },
-    { "id": "empathy_2", "type": "likert", "text": "일단 공감하고 들어주는 게 먼저라고 생각한다.", "dimensions": ["empathy_vs_solving"], "reverse": true },
-
-    { "id": "affection_1", "type": "likert", "text": "좋아하는 마음을 말과 스킨십으로 자주 표현하는 편이다.", "dimensions": ["affection_expression"], "reverse": false },
-    { "id": "affection_2", "type": "likert", "text": "애정 표현은 서툴고 무뚝뚝한 편이다.", "dimensions": ["affection_expression"], "reverse": true },
-
-    { "id": "jealousy_1", "type": "likert", "text": "연인이 이성 친구와 단둘이 만나면 신경이 많이 쓰인다.", "dimensions": ["jealousy_sensitivity"], "reverse": false },
-    { "id": "jealousy_2", "type": "likert", "text": "연인의 이성 친구 관계는 크게 신경 쓰지 않는다.", "dimensions": ["jealousy_sensitivity"], "reverse": true },
-
-    { "id": "independence_1", "type": "likert", "text": "연애 중에도 내 커리어·자기계발이 항상 우선순위 상위에 있다.", "dimensions": ["independence"], "reverse": false },
-    { "id": "independence_2", "type": "likert", "text": "연애를 시작하면 생활의 중심이 자연스럽게 상대에게 맞춰진다.", "dimensions": ["independence"], "reverse": true },
-
-    { "id": "free_1", "type": "free_text", "text": "최근 연애(또는 썸)에서 가장 크게 부딪혔던 순간이 있다면 적어줘. (안 적어도 괜찮아)", "dimensions": [], "optional": true },
-    { "id": "free_2", "type": "free_text", "text": "상대에게 가장 바라는 게 있다면? (안 적어도 괜찮아)", "dimensions": [], "optional": true }
+    {
+      "id": "ME_001",
+      "type": "likert",
+      "text": "연애를 시작해도 혼자만의 시간이 충분히 있어야 편하다",
+      "dimensions": [
+        "개인공간욕구",
+        "독립성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_002",
+      "type": "likert",
+      "text": "좋아하는 사람이 생기면 일상 대부분을 함께 공유하고 싶다",
+      "dimensions": [
+        "친밀감욕구",
+        "관계중심성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_003",
+      "type": "likert",
+      "text": "연인이 몇 시간 연락이 없어도 크게 신경 쓰이지 않는다",
+      "dimensions": [
+        "연락욕구",
+        "확신욕구"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "ME_004",
+      "type": "likert",
+      "text": "연인이 나를 좋아한다는 확신을 자주 받고 싶다",
+      "dimensions": [
+        "확신욕구",
+        "버림받음민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_005",
+      "type": "likert",
+      "text": "사귀는 사이여도 서로의 휴대폰은 개인 영역이라고 생각한다",
+      "dimensions": [
+        "사생활존중"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_006",
+      "type": "likert",
+      "text": "연인 사이에는 숨기는 것이 거의 없어야 한다고 생각한다",
+      "dimensions": [
+        "투명성요구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_007",
+      "type": "likert",
+      "text": "연인이 이성 친구와 단둘이 만나는 것은 불편하다",
+      "dimensions": [
+        "질투민감도",
+        "경계심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_008",
+      "type": "likert",
+      "text": "한 번 신뢰가 깨지면 예전처럼 돌아가기 어렵다",
+      "dimensions": [
+        "신뢰초기값",
+        "기억누적성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_009",
+      "type": "likert",
+      "text": "상대가 잘못을 인정하면 생각보다 빨리 풀리는 편이다",
+      "dimensions": [
+        "용서성",
+        "갈등후회복속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_010",
+      "type": "likert",
+      "text": "싸우면 그날 안에 어떻게든 결론을 내야 마음이 편하다",
+      "dimensions": [
+        "즉시해결욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_011",
+      "type": "likert",
+      "text": "감정이 올라온 상태에서는 대화보다 혼자 생각할 시간이 필요하다",
+      "dimensions": [
+        "냉각시간욕구",
+        "회피성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_012",
+      "type": "likert",
+      "text": "싸울 때 상대가 내 감정을 이해해주는 것이 해결책보다 먼저다",
+      "dimensions": [
+        "감정공감욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_013",
+      "type": "likert",
+      "text": "싸움에서는 감정보다 사실관계를 정확히 정리하는 것이 중요하다",
+      "dimensions": [
+        "논리설득욕구",
+        "원인규명욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_014",
+      "type": "likert",
+      "text": "상대가 사과하지 않으면 문제가 해결돼도 찜찜하다",
+      "dimensions": [
+        "사과필요도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_015",
+      "type": "likert",
+      "text": "한 번 다툰 문제라도 비슷한 일이 생기면 예전 일을 다시 꺼낼 수 있다",
+      "dimensions": [
+        "과거재소환",
+        "기억누적성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_016",
+      "type": "likert",
+      "text": "상대가 나를 무시했다고 느끼면 나도 차갑게 굴고 싶어진다",
+      "dimensions": [
+        "보복반응"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_017",
+      "type": "likert",
+      "text": "갈등 중에는 말수가 줄고 혼자 정리하는 편이다",
+      "dimensions": [
+        "침묵반응",
+        "회피성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_018",
+      "type": "likert",
+      "text": "관계가 깨지지 않는 것이 누가 맞는지 따지는 것보다 중요하다",
+      "dimensions": [
+        "관계회복지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_019",
+      "type": "likert",
+      "text": "싸울 때 누가 더 잘못했는지 분명히 해야 한다",
+      "dimensions": [
+        "승패지향",
+        "원인규명욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_020",
+      "type": "likert",
+      "text": "연애에서도 중요한 결정은 내가 주도하는 편이 편하다",
+      "dimensions": [
+        "주도권욕구",
+        "통제욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_021",
+      "type": "likert",
+      "text": "계획이 바뀌어도 상대 사정이 합리적이면 쉽게 받아들인다",
+      "dimensions": [
+        "유연성",
+        "변화수용성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_022",
+      "type": "likert",
+      "text": "상대가 문제를 말하면 공감보다 해결 방법부터 떠오른다",
+      "dimensions": [
+        "문제해결지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_023",
+      "type": "likert",
+      "text": "상대가 힘들어하면 해결책보다 먼저 감정을 들어주려고 한다",
+      "dimensions": [
+        "공감지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_024",
+      "type": "likert",
+      "text": "큰 보상이 있다면 어느 정도의 위험은 감수할 수 있다",
+      "dimensions": [
+        "위험감수"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_025",
+      "type": "likert",
+      "text": "확실하지 않은 선택이라면 좋은 기회여도 보수적으로 판단하는 편이다",
+      "dimensions": [
+        "안정추구",
+        "신중성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_026",
+      "type": "likert",
+      "text": "중요한 일은 미리 계획해두는 것이 좋다",
+      "dimensions": [
+        "계획성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_027",
+      "type": "likert",
+      "text": "연애에서 즉흥적인 여행이나 갑작스러운 계획 변경이 즐겁다",
+      "dimensions": [
+        "즉흥성",
+        "변화수용성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_028",
+      "type": "likert",
+      "text": "돈은 현재의 행복을 위해 어느 정도 써야 한다",
+      "dimensions": [
+        "소비성향",
+        "현재중심성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_029",
+      "type": "likert",
+      "text": "연애 중에도 미래를 위해 저축하는 것이 매우 중요하다",
+      "dimensions": [
+        "저축성향",
+        "미래지향성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_030",
+      "type": "likert",
+      "text": "결혼하면 어느 정도는 공동 재정을 운영해야 한다",
+      "dimensions": [
+        "재정통합선호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_031",
+      "type": "likert",
+      "text": "결혼해도 각자의 돈은 상당 부분 따로 관리해야 한다",
+      "dimensions": [
+        "경제독립선호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_032",
+      "type": "likert",
+      "text": "커리어 기회가 크다면 연애 일정은 어느 정도 양보할 수 있다",
+      "dimensions": [
+        "커리어우선"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_033",
+      "type": "likert",
+      "text": "좋은 관계를 위해서라면 커리어 선택도 어느 정도 조정할 수 있다",
+      "dimensions": [
+        "관계우선"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_034",
+      "type": "likert",
+      "text": "집안일은 수입보다 실제 여유시간을 기준으로 나누는 게 맞다",
+      "dimensions": [
+        "가사공정성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_035",
+      "type": "likert",
+      "text": "장기연애라면 결혼 가능성을 어느 정도 생각해야 한다",
+      "dimensions": [
+        "결혼의향",
+        "미래지향성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_036",
+      "type": "likert",
+      "text": "연애와 자녀 계획은 별개의 문제라고 생각한다",
+      "dimensions": [
+        "자녀의향"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "ME_037",
+      "type": "likert",
+      "text": "가족이 연애나 결혼에 의견을 내는 것은 어느 정도 자연스럽다",
+      "dimensions": [
+        "가족개입허용"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_038",
+      "type": "likert",
+      "text": "상대와 장기적인 계획 방향이 다르면 큰 문제라고 생각한다",
+      "dimensions": [
+        "장기계획일치욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_039",
+      "type": "likert",
+      "text": "사랑한다는 말을 자주 하는 편이다",
+      "dimensions": [
+        "사랑표현_말",
+        "감정표현성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_040",
+      "type": "likert",
+      "text": "함께 보내는 시간을 늘리는 것이 내 사랑 표현 방식에 가깝다",
+      "dimensions": [
+        "사랑표현_시간"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_041",
+      "type": "likert",
+      "text": "스킨십으로 애정을 표현하는 편이다",
+      "dimensions": [
+        "사랑표현_스킨십"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_042",
+      "type": "likert",
+      "text": "작은 선물이나 챙김으로 마음을 표현하는 편이다",
+      "dimensions": [
+        "사랑표현_선물"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_043",
+      "type": "likert",
+      "text": "상대가 힘들 때 실제 문제를 해결해주는 것이 사랑이라고 느낀다",
+      "dimensions": [
+        "사랑표현_실질도움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_044",
+      "type": "likert",
+      "text": "연인에게 사랑한다는 말을 자주 듣고 싶다",
+      "dimensions": [
+        "받는사랑_말"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_045",
+      "type": "likert",
+      "text": "선물보다 나를 위해 시간을 내주는 것이 더 좋다",
+      "dimensions": [
+        "받는사랑_시간"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_046",
+      "type": "likert",
+      "text": "연인과의 스킨십이 줄면 관계가 멀어진 느낌이 든다",
+      "dimensions": [
+        "받는사랑_스킨십"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_047",
+      "type": "likert",
+      "text": "기념일이나 작은 선물을 챙겨주면 사랑받는 느낌이 든다",
+      "dimensions": [
+        "받는사랑_선물"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_048",
+      "type": "likert",
+      "text": "말보다 실제로 나를 도와주는 행동에서 사랑을 더 느낀다",
+      "dimensions": [
+        "받는사랑_실질도움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_049",
+      "type": "likert",
+      "text": "연애가 시작되면 상대의 기분이 내 하루에 큰 영향을 준다",
+      "dimensions": [
+        "정서의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_050",
+      "type": "likert",
+      "text": "상대가 힘들어도 내가 감당할 수 없는 부분은 선을 긋는 편이다",
+      "dimensions": [
+        "자율성",
+        "독립성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_051",
+      "type": "likert",
+      "text": "연애 중 문제가 생기면 원인이 내 행동에 있었는지 먼저 생각한다",
+      "dimensions": [
+        "책임귀인_자기"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_052",
+      "type": "likert",
+      "text": "사람의 행동은 그 상황을 같이 봐야 판단할 수 있다고 생각한다",
+      "dimensions": [
+        "책임귀인_상황"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_053",
+      "type": "likert",
+      "text": "좋은 사람이라고 느끼면 처음에는 비교적 쉽게 믿는 편이다",
+      "dimensions": [
+        "신뢰초기값"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_054",
+      "type": "likert",
+      "text": "사람은 결국 본심을 숨길 수 있다고 생각해 쉽게 믿지 않는다",
+      "dimensions": [
+        "경계심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_055",
+      "type": "likert",
+      "text": "중요한 결정을 할 때 오래 고민하기보다 결론을 빨리 내리는 편이다",
+      "dimensions": [
+        "결정속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_056",
+      "type": "likert",
+      "text": "나중에 후회하지 않기 위해 결정 전에 가능한 경우의 수를 많이 생각한다",
+      "dimensions": [
+        "신중성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_057",
+      "type": "likert",
+      "text": "불편한 감정을 오래 붙잡고 있기보다 빨리 정리하고 싶다",
+      "dimensions": [
+        "감정억제성",
+        "갈등후회복속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_058",
+      "type": "likert",
+      "text": "좋든 나쁘든 내가 느끼는 감정을 상대에게 비교적 솔직하게 말한다",
+      "dimensions": [
+        "감정표현성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_059",
+      "type": "likert",
+      "text": "연애에서 서로 다른 점이 있어도 맞춰가는 과정이 중요하다",
+      "dimensions": [
+        "타협성",
+        "유연성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_060",
+      "type": "likert",
+      "text": "사랑만 있다면 생활 방식의 큰 차이도 결국 해결할 수 있다고 생각한다",
+      "dimensions": [
+        "이상추구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "free_1",
+      "type": "free_text",
+      "text": "최근 연애(또는 썸)에서 가장 크게 부딪혔던 순간이 있다면 적어줘. (안 적어도 괜찮아)",
+      "dimensions": [],
+      "optional": true
+    },
+    {
+      "id": "free_2",
+      "type": "free_text",
+      "text": "상대에게 가장 바라는 게 있다면? (안 적어도 괜찮아)",
+      "dimensions": [],
+      "optional": true
+    }
   ]
 }

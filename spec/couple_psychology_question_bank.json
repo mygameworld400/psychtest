@@ -1,0 +1,2219 @@
+{
+  "meta": {
+    "version": "1.0",
+    "scale": {
+      "type": "likert_1_5",
+      "labels": {
+        "1": "전혀 아니다",
+        "2": "아니다",
+        "3": "보통이다",
+        "4": "그렇다",
+        "5": "매우 그렇다"
+      }
+    },
+    "note": "이 질문은행은 자기이해/관계 대화용이며 임상 진단도구가 아님."
+  },
+  "ME": [
+    {
+      "id": "ME_001",
+      "type": "likert",
+      "text": "연애를 시작해도 혼자만의 시간이 충분히 있어야 편하다",
+      "dimensions": [
+        "개인공간욕구",
+        "독립성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_002",
+      "type": "likert",
+      "text": "좋아하는 사람이 생기면 일상 대부분을 함께 공유하고 싶다",
+      "dimensions": [
+        "친밀감욕구",
+        "관계중심성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_003",
+      "type": "likert",
+      "text": "연인이 몇 시간 연락이 없어도 크게 신경 쓰이지 않는다",
+      "dimensions": [
+        "연락욕구",
+        "확신욕구"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "ME_004",
+      "type": "likert",
+      "text": "연인이 나를 좋아한다는 확신을 자주 받고 싶다",
+      "dimensions": [
+        "확신욕구",
+        "버림받음민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_005",
+      "type": "likert",
+      "text": "사귀는 사이여도 서로의 휴대폰은 개인 영역이라고 생각한다",
+      "dimensions": [
+        "사생활존중"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_006",
+      "type": "likert",
+      "text": "연인 사이에는 숨기는 것이 거의 없어야 한다고 생각한다",
+      "dimensions": [
+        "투명성요구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_007",
+      "type": "likert",
+      "text": "연인이 이성 친구와 단둘이 만나는 것은 불편하다",
+      "dimensions": [
+        "질투민감도",
+        "경계심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_008",
+      "type": "likert",
+      "text": "한 번 신뢰가 깨지면 예전처럼 돌아가기 어렵다",
+      "dimensions": [
+        "신뢰초기값",
+        "기억누적성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_009",
+      "type": "likert",
+      "text": "상대가 잘못을 인정하면 생각보다 빨리 풀리는 편이다",
+      "dimensions": [
+        "용서성",
+        "갈등후회복속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_010",
+      "type": "likert",
+      "text": "싸우면 그날 안에 어떻게든 결론을 내야 마음이 편하다",
+      "dimensions": [
+        "즉시해결욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_011",
+      "type": "likert",
+      "text": "감정이 올라온 상태에서는 대화보다 혼자 생각할 시간이 필요하다",
+      "dimensions": [
+        "냉각시간욕구",
+        "회피성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_012",
+      "type": "likert",
+      "text": "싸울 때 상대가 내 감정을 이해해주는 것이 해결책보다 먼저다",
+      "dimensions": [
+        "감정공감욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_013",
+      "type": "likert",
+      "text": "싸움에서는 감정보다 사실관계를 정확히 정리하는 것이 중요하다",
+      "dimensions": [
+        "논리설득욕구",
+        "원인규명욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_014",
+      "type": "likert",
+      "text": "상대가 사과하지 않으면 문제가 해결돼도 찜찜하다",
+      "dimensions": [
+        "사과필요도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_015",
+      "type": "likert",
+      "text": "한 번 다툰 문제라도 비슷한 일이 생기면 예전 일을 다시 꺼낼 수 있다",
+      "dimensions": [
+        "과거재소환",
+        "기억누적성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_016",
+      "type": "likert",
+      "text": "상대가 나를 무시했다고 느끼면 나도 차갑게 굴고 싶어진다",
+      "dimensions": [
+        "보복반응"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_017",
+      "type": "likert",
+      "text": "갈등 중에는 말수가 줄고 혼자 정리하는 편이다",
+      "dimensions": [
+        "침묵반응",
+        "회피성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_018",
+      "type": "likert",
+      "text": "관계가 깨지지 않는 것이 누가 맞는지 따지는 것보다 중요하다",
+      "dimensions": [
+        "관계회복지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_019",
+      "type": "likert",
+      "text": "싸울 때 누가 더 잘못했는지 분명히 해야 한다",
+      "dimensions": [
+        "승패지향",
+        "원인규명욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_020",
+      "type": "likert",
+      "text": "연애에서도 중요한 결정은 내가 주도하는 편이 편하다",
+      "dimensions": [
+        "주도권욕구",
+        "통제욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_021",
+      "type": "likert",
+      "text": "계획이 바뀌어도 상대 사정이 합리적이면 쉽게 받아들인다",
+      "dimensions": [
+        "유연성",
+        "변화수용성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_022",
+      "type": "likert",
+      "text": "상대가 문제를 말하면 공감보다 해결 방법부터 떠오른다",
+      "dimensions": [
+        "문제해결지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_023",
+      "type": "likert",
+      "text": "상대가 힘들어하면 해결책보다 먼저 감정을 들어주려고 한다",
+      "dimensions": [
+        "공감지향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_024",
+      "type": "likert",
+      "text": "큰 보상이 있다면 어느 정도의 위험은 감수할 수 있다",
+      "dimensions": [
+        "위험감수"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_025",
+      "type": "likert",
+      "text": "확실하지 않은 선택이라면 좋은 기회여도 보수적으로 판단하는 편이다",
+      "dimensions": [
+        "안정추구",
+        "신중성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_026",
+      "type": "likert",
+      "text": "중요한 일은 미리 계획해두는 것이 좋다",
+      "dimensions": [
+        "계획성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_027",
+      "type": "likert",
+      "text": "연애에서 즉흥적인 여행이나 갑작스러운 계획 변경이 즐겁다",
+      "dimensions": [
+        "즉흥성",
+        "변화수용성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_028",
+      "type": "likert",
+      "text": "돈은 현재의 행복을 위해 어느 정도 써야 한다",
+      "dimensions": [
+        "소비성향",
+        "현재중심성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_029",
+      "type": "likert",
+      "text": "연애 중에도 미래를 위해 저축하는 것이 매우 중요하다",
+      "dimensions": [
+        "저축성향",
+        "미래지향성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_030",
+      "type": "likert",
+      "text": "결혼하면 어느 정도는 공동 재정을 운영해야 한다",
+      "dimensions": [
+        "재정통합선호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_031",
+      "type": "likert",
+      "text": "결혼해도 각자의 돈은 상당 부분 따로 관리해야 한다",
+      "dimensions": [
+        "경제독립선호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_032",
+      "type": "likert",
+      "text": "커리어 기회가 크다면 연애 일정은 어느 정도 양보할 수 있다",
+      "dimensions": [
+        "커리어우선"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_033",
+      "type": "likert",
+      "text": "좋은 관계를 위해서라면 커리어 선택도 어느 정도 조정할 수 있다",
+      "dimensions": [
+        "관계우선"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_034",
+      "type": "likert",
+      "text": "집안일은 수입보다 실제 여유시간을 기준으로 나누는 게 맞다",
+      "dimensions": [
+        "가사공정성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_035",
+      "type": "likert",
+      "text": "장기연애라면 결혼 가능성을 어느 정도 생각해야 한다",
+      "dimensions": [
+        "결혼의향",
+        "미래지향성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_036",
+      "type": "likert",
+      "text": "연애와 자녀 계획은 별개의 문제라고 생각한다",
+      "dimensions": [
+        "자녀의향"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "ME_037",
+      "type": "likert",
+      "text": "가족이 연애나 결혼에 의견을 내는 것은 어느 정도 자연스럽다",
+      "dimensions": [
+        "가족개입허용"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_038",
+      "type": "likert",
+      "text": "상대와 장기적인 계획 방향이 다르면 큰 문제라고 생각한다",
+      "dimensions": [
+        "장기계획일치욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_039",
+      "type": "likert",
+      "text": "사랑한다는 말을 자주 하는 편이다",
+      "dimensions": [
+        "사랑표현_말",
+        "감정표현성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_040",
+      "type": "likert",
+      "text": "함께 보내는 시간을 늘리는 것이 내 사랑 표현 방식에 가깝다",
+      "dimensions": [
+        "사랑표현_시간"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_041",
+      "type": "likert",
+      "text": "스킨십으로 애정을 표현하는 편이다",
+      "dimensions": [
+        "사랑표현_스킨십"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_042",
+      "type": "likert",
+      "text": "작은 선물이나 챙김으로 마음을 표현하는 편이다",
+      "dimensions": [
+        "사랑표현_선물"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_043",
+      "type": "likert",
+      "text": "상대가 힘들 때 실제 문제를 해결해주는 것이 사랑이라고 느낀다",
+      "dimensions": [
+        "사랑표현_실질도움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_044",
+      "type": "likert",
+      "text": "연인에게 사랑한다는 말을 자주 듣고 싶다",
+      "dimensions": [
+        "받는사랑_말"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_045",
+      "type": "likert",
+      "text": "선물보다 나를 위해 시간을 내주는 것이 더 좋다",
+      "dimensions": [
+        "받는사랑_시간"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_046",
+      "type": "likert",
+      "text": "연인과의 스킨십이 줄면 관계가 멀어진 느낌이 든다",
+      "dimensions": [
+        "받는사랑_스킨십"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_047",
+      "type": "likert",
+      "text": "기념일이나 작은 선물을 챙겨주면 사랑받는 느낌이 든다",
+      "dimensions": [
+        "받는사랑_선물"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_048",
+      "type": "likert",
+      "text": "말보다 실제로 나를 도와주는 행동에서 사랑을 더 느낀다",
+      "dimensions": [
+        "받는사랑_실질도움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_049",
+      "type": "likert",
+      "text": "연애가 시작되면 상대의 기분이 내 하루에 큰 영향을 준다",
+      "dimensions": [
+        "정서의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_050",
+      "type": "likert",
+      "text": "상대가 힘들어도 내가 감당할 수 없는 부분은 선을 긋는 편이다",
+      "dimensions": [
+        "자율성",
+        "독립성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_051",
+      "type": "likert",
+      "text": "연애 중 문제가 생기면 원인이 내 행동에 있었는지 먼저 생각한다",
+      "dimensions": [
+        "책임귀인_자기"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_052",
+      "type": "likert",
+      "text": "사람의 행동은 그 상황을 같이 봐야 판단할 수 있다고 생각한다",
+      "dimensions": [
+        "책임귀인_상황"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_053",
+      "type": "likert",
+      "text": "좋은 사람이라고 느끼면 처음에는 비교적 쉽게 믿는 편이다",
+      "dimensions": [
+        "신뢰초기값"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_054",
+      "type": "likert",
+      "text": "사람은 결국 본심을 숨길 수 있다고 생각해 쉽게 믿지 않는다",
+      "dimensions": [
+        "경계심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_055",
+      "type": "likert",
+      "text": "중요한 결정을 할 때 오래 고민하기보다 결론을 빨리 내리는 편이다",
+      "dimensions": [
+        "결정속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_056",
+      "type": "likert",
+      "text": "나중에 후회하지 않기 위해 결정 전에 가능한 경우의 수를 많이 생각한다",
+      "dimensions": [
+        "신중성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_057",
+      "type": "likert",
+      "text": "불편한 감정을 오래 붙잡고 있기보다 빨리 정리하고 싶다",
+      "dimensions": [
+        "감정억제성",
+        "갈등후회복속도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_058",
+      "type": "likert",
+      "text": "좋든 나쁘든 내가 느끼는 감정을 상대에게 비교적 솔직하게 말한다",
+      "dimensions": [
+        "감정표현성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_059",
+      "type": "likert",
+      "text": "연애에서 서로 다른 점이 있어도 맞춰가는 과정이 중요하다",
+      "dimensions": [
+        "타협성",
+        "유연성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "ME_060",
+      "type": "likert",
+      "text": "사랑만 있다면 생활 방식의 큰 차이도 결국 해결할 수 있다고 생각한다",
+      "dimensions": [
+        "이상추구"
+      ],
+      "reverse": false
+    }
+  ],
+  "PAIR": [
+    {
+      "id": "PAIR_001",
+      "type": "likert",
+      "text": "우리 둘은 연락 빈도에 대한 기대가 비슷하다",
+      "dimensions": [
+        "연락궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_002",
+      "type": "likert",
+      "text": "한 사람이 혼자 있고 싶을 때 다른 사람이 이를 존중할 수 있다",
+      "dimensions": [
+        "거리궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_003",
+      "type": "likert",
+      "text": "싸움이 생겼을 때 대화를 시작하고 싶은 타이밍이 비슷하다",
+      "dimensions": [
+        "갈등속도궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_004",
+      "type": "likert",
+      "text": "사과가 필요한 상황에 대한 기준이 비슷하다",
+      "dimensions": [
+        "사과기준궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_005",
+      "type": "likert",
+      "text": "이성 친구와의 경계선에 대한 기준이 비슷하다",
+      "dimensions": [
+        "신뢰경계궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_006",
+      "type": "likert",
+      "text": "휴대폰·SNS·사생활에 대한 기준이 비슷하다",
+      "dimensions": [
+        "사생활궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_007",
+      "type": "likert",
+      "text": "돈을 쓰는 방식과 저축에 대한 생각이 비슷하다",
+      "dimensions": [
+        "경제궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_008",
+      "type": "likert",
+      "text": "결혼 여부와 시기에 대한 생각이 비슷하다",
+      "dimensions": [
+        "미래궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_009",
+      "type": "likert",
+      "text": "자녀 계획에 대한 생각이 비슷하다",
+      "dimensions": [
+        "미래궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_010",
+      "type": "likert",
+      "text": "가족이 우리 관계에 개입할 수 있는 범위에 대한 생각이 비슷하다",
+      "dimensions": [
+        "가족경계궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_011",
+      "type": "likert",
+      "text": "여행이나 데이트 계획을 정할 때 역할 분담이 자연스럽다",
+      "dimensions": [
+        "역할궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_012",
+      "type": "likert",
+      "text": "한 사람이 결정을 주도해도 다른 사람이 크게 불편하지 않다",
+      "dimensions": [
+        "주도권궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_013",
+      "type": "likert",
+      "text": "서로 사랑을 표현하는 방식이 상대가 원하는 방식과 잘 맞는다",
+      "dimensions": [
+        "사랑표현궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_014",
+      "type": "likert",
+      "text": "상대가 힘들 때 내가 해주는 반응을 상대가 실제로 도움이 된다고 느낀다",
+      "dimensions": [
+        "정서지원궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_015",
+      "type": "likert",
+      "text": "둘 중 한 명이 바빠져도 관계가 크게 흔들리지 않는다",
+      "dimensions": [
+        "독립궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_016",
+      "type": "likert",
+      "text": "상대가 나를 오해했다고 느껴질 때 설명하면 풀리는 편이다",
+      "dimensions": [
+        "의사소통궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_017",
+      "type": "likert",
+      "text": "같은 문제로 반복해서 싸우는 편이다",
+      "dimensions": [
+        "반복갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_018",
+      "type": "likert",
+      "text": "갈등 후 누가 먼저 연락할지를 두고 힘겨루기가 생긴다",
+      "dimensions": [
+        "힘겨루기"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_019",
+      "type": "likert",
+      "text": "한 사람이 감정적으로 힘들 때 다른 사람이 부담을 느끼는 경우가 많다",
+      "dimensions": [
+        "정서부담"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_020",
+      "type": "likert",
+      "text": "서로의 단점을 고치려고 하기보다 관리하는 방법을 찾는 편이다",
+      "dimensions": [
+        "수용궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_021",
+      "type": "likert",
+      "text": "우리 관계에서는 돈 문제가 감정 문제로 번질 가능성이 있다",
+      "dimensions": [
+        "경제갈등위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_022",
+      "type": "likert",
+      "text": "각자의 친구·취미·혼자 시간을 유지할 수 있다",
+      "dimensions": [
+        "독립궁합"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_023",
+      "type": "likert",
+      "text": "서로의 미래 계획을 구체적으로 알고 있다",
+      "dimensions": [
+        "미래이해"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_024",
+      "type": "likert",
+      "text": "중요한 결정을 내릴 때 서로의 의견이 실제 결정에 반영된다",
+      "dimensions": [
+        "상호존중"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_025",
+      "type": "likert",
+      "text": "싸움 중에도 상대를 깎아내리는 말은 하지 않는 편이다",
+      "dimensions": [
+        "갈등안전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_026",
+      "type": "likert",
+      "text": "화가 나도 관계를 끝내겠다는 말을 쉽게 하지 않는다",
+      "dimensions": [
+        "갈등안전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_027",
+      "type": "likert",
+      "text": "상대가 좋아하는 것과 싫어하는 것을 꽤 정확히 알고 있다",
+      "dimensions": [
+        "상대이해"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_028",
+      "type": "likert",
+      "text": "상대가 왜 화났는지 말하지 않아도 어느 정도 짐작할 수 있다",
+      "dimensions": [
+        "상대이해"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_029",
+      "type": "likert",
+      "text": "상대에게 바라는 것을 직접 말할 수 있다",
+      "dimensions": [
+        "욕구표현"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_030",
+      "type": "likert",
+      "text": "상대도 나에게 바라는 것을 비교적 직접 말하는 편이다",
+      "dimensions": [
+        "욕구표현"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_031",
+      "type": "likert",
+      "text": "둘이 함께 있을 때 내가 나답게 행동할 수 있다",
+      "dimensions": [
+        "관계안전감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "PAIR_032",
+      "type": "likert",
+      "text": "이 관계에서는 노력한 만큼 좋아질 수 있다는 느낌이 있다",
+      "dimensions": [
+        "관계효능감"
+      ],
+      "reverse": false
+    }
+  ],
+  "NOW": [
+    {
+      "id": "NOW_001",
+      "type": "likert",
+      "text": "요즘 연인과 연락하는 것 자체가 피곤할 때가 많다",
+      "dimensions": [
+        "연락피로",
+        "관계에너지방전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_002",
+      "type": "likert",
+      "text": "만나기로 한 날이 다가오면 기대보다 부담이 먼저 든다",
+      "dimensions": [
+        "만남의무감",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_003",
+      "type": "likert",
+      "text": "상대의 메시지를 보고도 답장을 미루고 싶을 때가 많다",
+      "dimensions": [
+        "연락피로",
+        "정서적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_004",
+      "type": "likert",
+      "text": "상대와 대화하면 비슷한 이야기를 또 반복하게 될 것 같다",
+      "dimensions": [
+        "대화피로",
+        "관계무기력"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_005",
+      "type": "likert",
+      "text": "요즘은 혼자 있을 때 가장 편하다",
+      "dimensions": [
+        "혼자회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_006",
+      "type": "likert",
+      "text": "상대가 나에게 계속 이유를 묻거나 다가오면 더 멀어지고 싶다",
+      "dimensions": [
+        "동굴침입거부감",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_007",
+      "type": "likert",
+      "text": "상대가 싫다기보다 그냥 아무것도 신경 쓰고 싶지 않다",
+      "dimensions": [
+        "감정소진",
+        "혼자회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_008",
+      "type": "likert",
+      "text": "상대를 만나지 않는 날에도 그 사람이 보고 싶다",
+      "dimensions": [
+        "상대그리움",
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_009",
+      "type": "likert",
+      "text": "상대가 힘들다고 하면 여전히 걱정되고 도와주고 싶다",
+      "dimensions": [
+        "상대행복관심",
+        "정서적애착"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_010",
+      "type": "likert",
+      "text": "예전처럼 상대에게 설레는 느낌은 많이 줄었다",
+      "dimensions": [
+        "설렘잔존"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_011",
+      "type": "likert",
+      "text": "스킨십이나 신체적 가까움이 부담스럽게 느껴질 때가 있다",
+      "dimensions": [
+        "신체적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_012",
+      "type": "likert",
+      "text": "상대에게 아직 애정이 있다고 느낀다",
+      "dimensions": [
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_013",
+      "type": "likert",
+      "text": "상대와의 관계를 완전히 끝내는 모습을 상상하면 마음이 편해진다",
+      "dimensions": [
+        "관계종료의사",
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_014",
+      "type": "likert",
+      "text": "헤어지는 생각을 최근 자주 해봤다",
+      "dimensions": [
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_015",
+      "type": "likert",
+      "text": "문제가 해결된다면 이 관계를 계속 이어가고 싶다",
+      "dimensions": [
+        "관계유지의지",
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_016",
+      "type": "likert",
+      "text": "상대와 다시 잘 지낼 방법을 찾아보고 싶은 마음이 있다",
+      "dimensions": [
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_017",
+      "type": "likert",
+      "text": "아무리 이야기해도 상대는 달라지지 않을 것 같다",
+      "dimensions": [
+        "상대변화기대"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_018",
+      "type": "likert",
+      "text": "우리 관계는 노력하면 좋아질 수 있다고 생각한다",
+      "dimensions": [
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_019",
+      "type": "likert",
+      "text": "싸우는 것조차 이제는 귀찮게 느껴진다",
+      "dimensions": [
+        "관계무기력",
+        "감정소진"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_020",
+      "type": "likert",
+      "text": "상대에게 쌓인 서운함이 한두 가지가 아니다",
+      "dimensions": [
+        "누적서운함"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_021",
+      "type": "likert",
+      "text": "예전에 끝난 문제라고 했지만 사실 마음속에 아직 남아 있다",
+      "dimensions": [
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_022",
+      "type": "likert",
+      "text": "상대의 말을 예전만큼 그대로 믿기 어렵다",
+      "dimensions": [
+        "신뢰손상",
+        "상대말불신"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_023",
+      "type": "likert",
+      "text": "상대가 뭘 하는지 확인하고 싶은 마음이 전보다 커졌다",
+      "dimensions": [
+        "감시욕구",
+        "신뢰손상"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_024",
+      "type": "likert",
+      "text": "대화를 시작하면 내가 공격받을 것 같아 방어적으로 된다",
+      "dimensions": [
+        "방어수준",
+        "대화거부감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_025",
+      "type": "likert",
+      "text": "상대와 이야기를 해도 결국 내가 이해받지 못할 것 같다",
+      "dimensions": [
+        "대화거부감",
+        "관계무기력"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_026",
+      "type": "likert",
+      "text": "상대가 잘못을 인정해도 쉽게 마음이 풀리지 않는다",
+      "dimensions": [
+        "미해결갈등",
+        "신뢰손상"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_027",
+      "type": "likert",
+      "text": "최근 상대에게 화가 자주 난다",
+      "dimensions": [
+        "분노"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_028",
+      "type": "likert",
+      "text": "상대에게 기대했던 만큼의 모습을 보지 못해 실망했다",
+      "dimensions": [
+        "실망"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_029",
+      "type": "likert",
+      "text": "내가 참거나 양보한 것이 많다고 느낀다",
+      "dimensions": [
+        "서운함",
+        "누적서운함"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_030",
+      "type": "likert",
+      "text": "내가 상대에게 상처를 줬다는 생각에 미안함이 있다",
+      "dimensions": [
+        "미안함",
+        "죄책감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_031",
+      "type": "likert",
+      "text": "관계가 이렇게 된 데 내 책임도 크다고 생각한다",
+      "dimensions": [
+        "죄책감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_032",
+      "type": "likert",
+      "text": "상대가 나를 떠날까 봐 두렵다",
+      "dimensions": [
+        "두려움",
+        "관계안전감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_033",
+      "type": "likert",
+      "text": "상대와 함께하는 미래를 아직 상상할 수 있다",
+      "dimensions": [
+        "미래상상가능도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_034",
+      "type": "likert",
+      "text": "이 사람과 결혼하는 모습을 아직 상상할 수 있다",
+      "dimensions": [
+        "결혼상상가능도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_035",
+      "type": "likert",
+      "text": "이 관계를 위해 시간과 노력을 더 투자할 의향이 있다",
+      "dimensions": [
+        "장기투자의향",
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_036",
+      "type": "likert",
+      "text": "상대 앞에서 내 감정을 솔직하게 말해도 안전하다고 느낀다",
+      "dimensions": [
+        "관계안전감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_037",
+      "type": "likert",
+      "text": "상대가 내 감정을 무시하거나 축소한다고 느낀다",
+      "dimensions": [
+        "관계안전감"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_038",
+      "type": "likert",
+      "text": "요즘 연애 때문에 다른 일까지 지치는 느낌이 있다",
+      "dimensions": [
+        "관계에너지방전",
+        "감정소진"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_039",
+      "type": "likert",
+      "text": "상대에게 잘해줘야 한다는 생각 자체가 부담스럽다",
+      "dimensions": [
+        "관계압박감",
+        "만남의무감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_040",
+      "type": "likert",
+      "text": "상대에게서 연락이 안 오면 오히려 편할 때가 있다",
+      "dimensions": [
+        "정서적거리욕구",
+        "연락피로"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_041",
+      "type": "likert",
+      "text": "상대가 먼저 다가오면 반갑다",
+      "dimensions": [
+        "애정잔존",
+        "정서적애착"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_042",
+      "type": "likert",
+      "text": "상대와 좋은 시간을 보내면 관계를 포기하고 싶다는 생각이 줄어든다",
+      "dimensions": [
+        "관계회복의지",
+        "관계종료의사"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_043",
+      "type": "likert",
+      "text": "관계를 끝내기보다 현재 방식만 바꾸고 싶다",
+      "dimensions": [
+        "관계유지의지",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_044",
+      "type": "likert",
+      "text": "상대를 사랑하는지보다 내가 너무 지쳤다는 생각이 먼저 든다",
+      "dimensions": [
+        "감정소진",
+        "관계에너지방전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_045",
+      "type": "likert",
+      "text": "상대가 변한다면 내 마음도 다시 좋아질 수 있을 것 같다",
+      "dimensions": [
+        "상대변화기대",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_046",
+      "type": "likert",
+      "text": "요즘 상대와의 문제를 주변 사람들에게 자주 이야기한다",
+      "dimensions": [
+        "관계압박감",
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_047",
+      "type": "likert",
+      "text": "같은 갈등이 다시 생길 거라고 예상한다",
+      "dimensions": [
+        "관계무기력",
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_048",
+      "type": "likert",
+      "text": "상대가 나를 이해하려고 노력하고 있다고 느낀다",
+      "dimensions": [
+        "관계안전감",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_049",
+      "type": "likert",
+      "text": "나도 상대를 이해하려고 노력할 여력이 남아 있다",
+      "dimensions": [
+        "관계회복의지",
+        "상대행복관심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_050",
+      "type": "likert",
+      "text": "지금 잠깐 거리를 두면 오히려 관계가 나아질 것 같다",
+      "dimensions": [
+        "혼자회복욕구",
+        "정서적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_051",
+      "type": "likert",
+      "text": "상대가 며칠 연락하지 않아도 크게 아쉽지 않을 것 같다",
+      "dimensions": [
+        "상대그리움",
+        "정서적애착"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_052",
+      "type": "likert",
+      "text": "상대가 다른 사람을 만난다고 상상하면 여전히 마음이 아프다",
+      "dimensions": [
+        "정서적애착",
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_053",
+      "type": "likert",
+      "text": "헤어진 뒤의 생활을 구체적으로 상상해본 적이 있다",
+      "dimensions": [
+        "관계종료의사",
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_054",
+      "type": "likert",
+      "text": "상대와의 관계가 내 자존감에 부정적인 영향을 주고 있다",
+      "dimensions": [
+        "관계안전감",
+        "감정소진"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_055",
+      "type": "likert",
+      "text": "지금 가장 원하는 것은 사랑 표현보다 편안함이다",
+      "dimensions": [
+        "혼자회복욕구",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_056",
+      "type": "likert",
+      "text": "현재 관계 상태를 그대로 몇 달 더 유지하는 것은 힘들 것 같다",
+      "dimensions": [
+        "관계에너지방전",
+        "관계개선기대"
+      ],
+      "reverse": false
+    }
+  ],
+  "AFTER": [
+    {
+      "id": "AFTER_001",
+      "type": "likert",
+      "text": "다시 만날 수 있다면 만나고 싶다",
+      "dimensions": [
+        "재결합욕구",
+        "관계복구욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_002",
+      "type": "likert",
+      "text": "그 사람이 아니라도 누군가 곁에 있었으면 좋겠다는 생각이 든다",
+      "dimensions": [
+        "외로움영향",
+        "생활공백영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_003",
+      "type": "likert",
+      "text": "그 사람의 성격과 모습 자체가 아직 좋다",
+      "dimensions": [
+        "상대자체애정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_004",
+      "type": "likert",
+      "text": "함께하던 일상이 사라진 것이 특히 힘들다",
+      "dimensions": [
+        "생활공백영향",
+        "습관성그리움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_005",
+      "type": "likert",
+      "text": "좋았던 기억이 자꾸 떠오르고 나쁜 기억은 흐려지는 느낌이 있다",
+      "dimensions": [
+        "과거관계미화",
+        "추억의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_006",
+      "type": "likert",
+      "text": "헤어진 이유를 생각하면 다시 만나도 같은 문제가 생길 것 같다",
+      "dimensions": [
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_007",
+      "type": "likert",
+      "text": "이별 원인을 해결할 구체적인 방법이 있다고 생각한다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_008",
+      "type": "likert",
+      "text": "내가 다르게 행동했으면 헤어지지 않았을 것 같아 후회된다",
+      "dimensions": [
+        "후회강도",
+        "자기비난"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_009",
+      "type": "likert",
+      "text": "상대가 조금만 달랐어도 관계는 끝나지 않았을 것 같다",
+      "dimensions": [
+        "상대비난"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_010",
+      "type": "likert",
+      "text": "상대에게 제대로 하지 못한 말이 남아 있다",
+      "dimensions": [
+        "미해결감정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_011",
+      "type": "likert",
+      "text": "상대에게 사과하고 싶은 것이 있다",
+      "dimensions": [
+        "죄책감",
+        "미해결감정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_012",
+      "type": "likert",
+      "text": "상대에게 아직 화가 많이 남아 있다",
+      "dimensions": [
+        "분노잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_013",
+      "type": "likert",
+      "text": "상대의 SNS나 상태를 확인하고 싶은 마음이 든다",
+      "dimensions": [
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_014",
+      "type": "likert",
+      "text": "메시지를 보내고 싶은 충동을 자주 느낀다",
+      "dimensions": [
+        "연락충동"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_015",
+      "type": "likert",
+      "text": "연락하면 어떤 반응이 올지 계속 상상한다",
+      "dimensions": [
+        "연락충동",
+        "거절민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_016",
+      "type": "likert",
+      "text": "상대가 먼저 연락해주길 기다리고 있다",
+      "dimensions": [
+        "재접촉신호",
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_017",
+      "type": "likert",
+      "text": "상대에게 거절당하는 상황을 상상하면 견디기 어렵다",
+      "dimensions": [
+        "거절민감도",
+        "상실불안"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_018",
+      "type": "likert",
+      "text": "상대가 완전히 나를 잊을까 봐 두렵다",
+      "dimensions": [
+        "상실불안"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_019",
+      "type": "likert",
+      "text": "다시 만나고 싶은 마음에 자존심이 상한 것도 영향을 주는 것 같다",
+      "dimensions": [
+        "자존심회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_020",
+      "type": "likert",
+      "text": "상대가 나 없이 잘 지내는 모습을 보면 억울하거나 자존심이 상할 것 같다",
+      "dimensions": [
+        "자존심회복욕구",
+        "분노잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_021",
+      "type": "likert",
+      "text": "다시 만나면 예전보다 잘할 자신이 있다",
+      "dimensions": [
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_022",
+      "type": "likert",
+      "text": "다시 만나기 전에 반드시 해결돼야 할 문제가 무엇인지 알고 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_023",
+      "type": "likert",
+      "text": "그 문제를 해결하기 위해 내가 바꿀 행동이 구체적으로 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_024",
+      "type": "likert",
+      "text": "상대도 변화할 의지가 있을 것이라는 근거가 있다",
+      "dimensions": [
+        "재접촉신호",
+        "과거문제해결가능성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_025",
+      "type": "likert",
+      "text": "지금 연락하면 상대가 부담스러워할 가능성이 크다고 생각한다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_026",
+      "type": "likert",
+      "text": "마지막 대화에서 상대는 다시 이야기할 여지를 남겼다",
+      "dimensions": [
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_027",
+      "type": "likert",
+      "text": "상대가 명확하게 더 이상 연락하지 말라고 했다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_028",
+      "type": "likert",
+      "text": "현재 차단되어 있거나 연락 경로가 거의 막혀 있다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_029",
+      "type": "likert",
+      "text": "헤어진 뒤에도 서로 필요한 연락은 비교적 편하게 하고 있다",
+      "dimensions": [
+        "재접촉신호",
+        "현재연락적정도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_030",
+      "type": "likert",
+      "text": "상대가 먼저 안부를 묻거나 대화를 이어간 적이 있다",
+      "dimensions": [
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_031",
+      "type": "likert",
+      "text": "내가 외로운 날에 특히 그 사람이 더 생각난다",
+      "dimensions": [
+        "외로움영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_032",
+      "type": "likert",
+      "text": "바쁜 날에는 상대 생각이 크게 줄어든다",
+      "dimensions": [
+        "생활공백영향",
+        "외로움영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_033",
+      "type": "likert",
+      "text": "다른 사람을 만나도 자꾸 전 연인과 비교하게 된다",
+      "dimensions": [
+        "미련잔존",
+        "추억의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_034",
+      "type": "likert",
+      "text": "새로운 사람을 알아갈 생각을 하면 죄책감이 든다",
+      "dimensions": [
+        "미련잔존",
+        "새로운관계준비도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_035",
+      "type": "likert",
+      "text": "전 연인이 아닌 새로운 관계를 시작할 가능성도 열어둘 수 있다",
+      "dimensions": [
+        "새로운관계준비도",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_036",
+      "type": "likert",
+      "text": "헤어졌다는 사실 자체를 아직 받아들이기 어렵다",
+      "dimensions": [
+        "관계종료수용도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_037",
+      "type": "likert",
+      "text": "그 사람이 없어도 내 일상을 다시 만들 수 있을 것 같다",
+      "dimensions": [
+        "관계종료수용도",
+        "새로운관계준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_038",
+      "type": "likert",
+      "text": "다시 만나지 못하더라도 이 경험에서 얻은 것이 있다고 생각한다",
+      "dimensions": [
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_039",
+      "type": "likert",
+      "text": "상대가 먼저 돌아온다면 이유를 따지기보다 바로 만나고 싶다",
+      "dimensions": [
+        "재결합욕구",
+        "거절민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_040",
+      "type": "likert",
+      "text": "다시 만나더라도 이전보다 천천히 관계를 다시 쌓아야 한다고 생각한다",
+      "dimensions": [
+        "재결합준비도",
+        "신뢰회복난이도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_041",
+      "type": "likert",
+      "text": "한 번 깨진 신뢰를 다시 만드는 것은 매우 어렵다고 느낀다",
+      "dimensions": [
+        "신뢰회복난이도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_042",
+      "type": "likert",
+      "text": "헤어진 원인이 외도나 반복 거짓말처럼 신뢰 문제였다",
+      "dimensions": [
+        "신뢰회복난이도",
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_043",
+      "type": "likert",
+      "text": "헤어진 원인이 주로 상황이나 타이밍 문제였다고 생각한다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "동일갈등재발위험"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_044",
+      "type": "likert",
+      "text": "헤어진 원인이 서로의 기본 가치관 차이였다고 생각한다",
+      "dimensions": [
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_045",
+      "type": "likert",
+      "text": "상대와 다시 만나지 못하면 내가 패배한 것 같은 느낌이 든다",
+      "dimensions": [
+        "자존심회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_046",
+      "type": "likert",
+      "text": "상대에게 내가 잘 지내는 모습을 보여주고 싶은 마음이 있다",
+      "dimensions": [
+        "자존심회복욕구",
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_047",
+      "type": "likert",
+      "text": "내가 먼저 연락하지 않으면 영영 끝날 것 같아 불안하다",
+      "dimensions": [
+        "상실불안",
+        "연락충동"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_048",
+      "type": "likert",
+      "text": "연락을 하지 않는 것이 지금은 서로에게 더 좋을 수 있다고 생각한다",
+      "dimensions": [
+        "현재연락적정도",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_049",
+      "type": "likert",
+      "text": "상대의 행복을 생각하면 꼭 나와 다시 만나야 한다고 생각하지는 않는다",
+      "dimensions": [
+        "상대자체애정",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_050",
+      "type": "likert",
+      "text": "상대를 다시 만나고 싶은 이유를 한 문장으로 설명할 수 있다",
+      "dimensions": [
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_051",
+      "type": "likert",
+      "text": "다시 만나면 무엇을 바꿀지 둘 사이에 실제로 이야기한 적이 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_052",
+      "type": "likert",
+      "text": "상대가 그리울 때 좋은 순간뿐 아니라 힘들었던 순간도 같이 떠올린다",
+      "dimensions": [
+        "과거관계미화"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_053",
+      "type": "likert",
+      "text": "이별 뒤 내 생활 리듬이 크게 무너졌다",
+      "dimensions": [
+        "생활공백영향",
+        "상실감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_054",
+      "type": "likert",
+      "text": "지금의 감정이 시간이 지나면 달라질 수 있다는 생각을 할 수 있다",
+      "dimensions": [
+        "관계종료수용도",
+        "새로운관계준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_055",
+      "type": "likert",
+      "text": "그 사람이 돌아오지 않아도 결국 괜찮아질 수 있다고 믿는다",
+      "dimensions": [
+        "관계종료수용도",
+        "상실불안"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_056",
+      "type": "likert",
+      "text": "다시 만나고 싶은 마음과 다시 만나면 힘들 것 같은 마음이 동시에 있다",
+      "dimensions": [
+        "미해결감정",
+        "재결합욕구",
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    }
+  ],
+  "situational": [
+    {
+      "id": "SIT_ME_01",
+      "product": "ME",
+      "type": "single_choice",
+      "prompt": "연인이 '이번 주말에는 혼자 있고 싶어'라고 말했다. 가장 먼저 드는 반응은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "편하게 쉬라고 한다",
+          "tags": [
+            "자율성",
+            "개인공간존중"
+          ]
+        },
+        {
+          "id": "B",
+          "text": "내가 뭘 잘못했는지 먼저 생각한다",
+          "tags": [
+            "버림받음민감도",
+            "책임귀인_자기"
+          ]
+        },
+        {
+          "id": "C",
+          "text": "서운하지만 티 내지 않는다",
+          "tags": [
+            "감정억제성"
+          ]
+        },
+        {
+          "id": "D",
+          "text": "왜 혼자 있고 싶은지 이유를 묻는다",
+          "tags": [
+            "확신욕구",
+            "원인규명욕구"
+          ]
+        },
+        {
+          "id": "E",
+          "text": "나도 내 일정을 잡는다",
+          "tags": [
+            "독립성",
+            "자율성"
+          ]
+        }
+      ],
+      "followup": "그 다음 실제로 어떤 행동을 할지 자유롭게 적어주세요."
+    },
+    {
+      "id": "SIT_ME_02",
+      "product": "ME",
+      "type": "single_choice",
+      "prompt": "연인이 약속을 깜빡해서 중요한 기념일을 놓쳤다. 가장 중요한 것은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "진심으로 미안해하는지",
+          "tags": [
+            "사과필요도",
+            "감정공감욕구"
+          ]
+        },
+        {
+          "id": "B",
+          "text": "왜 잊었는지 원인을 아는 것",
+          "tags": [
+            "원인규명욕구"
+          ]
+        },
+        {
+          "id": "C",
+          "text": "다시는 반복하지 않을 방법을 만드는 것",
+          "tags": [
+            "문제해결지향"
+          ]
+        },
+        {
+          "id": "D",
+          "text": "기념일을 놓친 사실 자체",
+          "tags": [
+            "기억누적성",
+            "상징가치"
+          ]
+        },
+        {
+          "id": "E",
+          "text": "별일 아니라고 생각한다",
+          "tags": [
+            "유연성",
+            "낮은의미부여"
+          ]
+        }
+      ],
+      "followup": "사과를 받았는데도 비슷한 일이 반복된다면 어떻게 할지 적어주세요."
+    },
+    {
+      "id": "SIT_NOW_01",
+      "product": "NOW",
+      "type": "single_choice",
+      "prompt": "지금 상대가 '우리 오늘 만나서 이야기하자'고 한다면 가장 먼저 드는 감정은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "반갑다",
+          "tags": [
+            "애정잔존",
+            "관계회복의지"
+          ]
+        },
+        {
+          "id": "B",
+          "text": "안도된다",
+          "tags": [
+            "관계안전감"
+          ]
+        },
+        {
+          "id": "C",
+          "text": "부담스럽다",
+          "tags": [
+            "관계압박감",
+            "혼자회복욕구"
+          ]
+        },
+        {
+          "id": "D",
+          "text": "짜증난다",
+          "tags": [
+            "분노",
+            "대화피로"
+          ]
+        },
+        {
+          "id": "E",
+          "text": "무섭다",
+          "tags": [
+            "두려움",
+            "방어수준"
+          ]
+        },
+        {
+          "id": "F",
+          "text": "아무 감정도 없다",
+          "tags": [
+            "관계무기력",
+            "정서적거리욕구"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SIT_AFTER_01",
+      "product": "AFTER",
+      "type": "single_choice",
+      "prompt": "전 연인이 오늘 밤 '잘 지내?'라고 연락한다면 가장 먼저 하고 싶은 행동은?",
+      "options": [
+        {
+          "id": "A",
+          "text": "바로 답장한다",
+          "tags": [
+            "연락충동",
+            "재결합욕구"
+          ]
+        },
+        {
+          "id": "B",
+          "text": "조금 기다렸다가 답한다",
+          "tags": [
+            "신중성",
+            "재결합준비도"
+          ]
+        },
+        {
+          "id": "C",
+          "text": "무슨 의도인지 먼저 생각한다",
+          "tags": [
+            "경계심",
+            "확인욕구"
+          ]
+        },
+        {
+          "id": "D",
+          "text": "답하지 않는다",
+          "tags": [
+            "관계종료수용도",
+            "상대거리두기신호"
+          ]
+        },
+        {
+          "id": "E",
+          "text": "친구에게 보여주고 상의한다",
+          "tags": [
+            "거절민감도",
+            "불확실성"
+          ]
+        }
+      ],
+      "followup": "답장을 한다면 첫 문장을 적어주세요."
+    }
+  ],
+  "dynamic_followups": [
+    {
+      "id": "DF_NOW_001",
+      "trigger": "NOW_012>=4 AND NOW_003>=4",
+      "prompt": "상대를 사랑한다고 느끼지만 연락은 피하고 싶다고 답했습니다. 연락이 부담스러운 이유에 가장 가까운 것은?",
+      "type": "single_choice",
+      "options": [
+        "감정 회복이 필요해서",
+        "대화가 반복될 것 같아서",
+        "상대에게 화가 나서",
+        "책임감에서 벗어나고 싶어서",
+        "헤어질지 고민 중이라서"
+      ]
+    },
+    {
+      "id": "DF_NOW_002",
+      "trigger": "NOW_015>=4 AND NOW_019>=4",
+      "prompt": "관계는 이어가고 싶지만 싸우는 것조차 지친다고 답했습니다. 가장 바뀌었으면 하는 것은?",
+      "type": "single_choice",
+      "options": [
+        "연락 방식",
+        "싸우는 방식",
+        "상대의 태도",
+        "내 감정 상태",
+        "만나는 빈도",
+        "미래 계획",
+        "잘 모르겠다"
+      ]
+    },
+    {
+      "id": "DF_AFTER_001",
+      "trigger": "AFTER_001>=4 AND AFTER_006>=4",
+      "prompt": "다시 만나고 싶지만 같은 문제가 반복될 것 같다고 답했습니다. 재결합 전 가장 먼저 해결돼야 할 것은?",
+      "type": "single_choice",
+      "options": [
+        "신뢰",
+        "연락 방식",
+        "갈등 해결 방식",
+        "가치관 차이",
+        "거리/환경",
+        "가족·주변인 문제",
+        "내 감정 정리",
+        "상대의 변화"
+      ]
+    },
+    {
+      "id": "DF_AFTER_002",
+      "trigger": "AFTER_014>=4 AND AFTER_027>=4",
+      "prompt": "연락 충동은 크지만 상대가 연락하지 말라고 했습니다. 현재 가장 강한 마음은 무엇인가요?",
+      "type": "single_choice",
+      "options": [
+        "내 마음을 설명하고 싶음",
+        "사과하고 싶음",
+        "상대 반응을 확인하고 싶음",
+        "다시 만나고 싶음",
+        "끝났다는 걸 받아들이기 어려움"
+      ]
+    }
+  ]
+}
