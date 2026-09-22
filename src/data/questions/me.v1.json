@@ -1,0 +1,58 @@
+{
+  "version": "me.v1",
+  "product": "ME",
+  "dimensions": [
+    { "key": "contact_need", "label": "연락 욕구" },
+    { "key": "personal_space", "label": "개인 공간" },
+    { "key": "money_saving", "label": "돈/저축 성향" },
+    { "key": "marriage_readiness", "label": "결혼/자녀 지향" },
+    { "key": "trust_boundary", "label": "신뢰 경계(투명성 요구)" },
+    { "key": "conflict_speed", "label": "갈등 해결 속도" },
+    { "key": "initiative", "label": "주도권" },
+    { "key": "planning", "label": "계획성" },
+    { "key": "empathy_vs_solving", "label": "공감 우선 vs 해결 우선" },
+    { "key": "affection_expression", "label": "애정 표현 강도" },
+    { "key": "jealousy_sensitivity", "label": "질투 민감도" },
+    { "key": "independence", "label": "독립성" }
+  ],
+  "items": [
+    { "id": "contact_need_1", "type": "likert", "text": "연락이 몇 시간만 뜸해도 불안해진다.", "dimensions": ["contact_need"], "reverse": false },
+    { "id": "contact_need_2", "type": "likert", "text": "하루 종일 연락이 없어도 크게 신경 쓰이지 않는다.", "dimensions": ["contact_need"], "reverse": true },
+
+    { "id": "personal_space_1", "type": "likert", "text": "연인이 혼자만의 시간을 요청하면 서운함이 앞선다.", "dimensions": ["personal_space"], "reverse": true },
+    { "id": "personal_space_2", "type": "likert", "text": "나에게도 연인에게도 각자만의 시간이 꼭 필요하다고 생각한다.", "dimensions": ["personal_space"], "reverse": false },
+
+    { "id": "money_saving_1", "type": "likert", "text": "연애할 때도 저축·재테크 계획을 우선적으로 챙긴다.", "dimensions": ["money_saving"], "reverse": false },
+    { "id": "money_saving_2", "type": "likert", "text": "돈은 있을 때 관계를 위해 쓰는 게 맞다고 생각한다.", "dimensions": ["money_saving"], "reverse": true },
+
+    { "id": "marriage_readiness_1", "type": "likert", "text": "연애를 시작하면 결혼까지 자연스럽게 그려보게 된다.", "dimensions": ["marriage_readiness"], "reverse": false },
+    { "id": "marriage_readiness_2", "type": "likert", "text": "지금은 결혼·자녀보다 관계 자체에 집중하고 싶다.", "dimensions": ["marriage_readiness"], "reverse": true },
+
+    { "id": "trust_boundary_1", "type": "likert", "text": "연인의 휴대폰이나 SNS를 공유하는 게 신뢰의 증거라고 생각한다.", "dimensions": ["trust_boundary"], "reverse": false },
+    { "id": "trust_boundary_2", "type": "likert", "text": "연인의 사생활은 나와 공유하지 않아도 존중받아야 한다.", "dimensions": ["trust_boundary"], "reverse": true },
+
+    { "id": "conflict_speed_1", "type": "likert", "text": "싸우면 그 자리에서 바로 풀어야 마음이 편하다.", "dimensions": ["conflict_speed"], "reverse": false },
+    { "id": "conflict_speed_2", "type": "likert", "text": "싸운 직후엔 혼자 정리할 시간이 먼저 필요하다.", "dimensions": ["conflict_speed"], "reverse": true },
+
+    { "id": "initiative_1", "type": "likert", "text": "데이트 계획이나 결정을 내가 먼저 주도하는 편이다.", "dimensions": ["initiative"], "reverse": false },
+    { "id": "initiative_2", "type": "likert", "text": "상대가 정해주는 대로 따라가는 게 더 편하다.", "dimensions": ["initiative"], "reverse": true },
+
+    { "id": "planning_1", "type": "likert", "text": "여행이나 기념일은 미리 세세하게 계획해야 마음이 놓인다.", "dimensions": ["planning"], "reverse": false },
+    { "id": "planning_2", "type": "likert", "text": "즉흥적으로 흘러가는 연애가 더 재미있다.", "dimensions": ["planning"], "reverse": true },
+
+    { "id": "empathy_1", "type": "likert", "text": "연인이 힘들어하면 해결책부터 제시하고 싶어진다.", "dimensions": ["empathy_vs_solving"], "reverse": false },
+    { "id": "empathy_2", "type": "likert", "text": "일단 공감하고 들어주는 게 먼저라고 생각한다.", "dimensions": ["empathy_vs_solving"], "reverse": true },
+
+    { "id": "affection_1", "type": "likert", "text": "좋아하는 마음을 말과 스킨십으로 자주 표현하는 편이다.", "dimensions": ["affection_expression"], "reverse": false },
+    { "id": "affection_2", "type": "likert", "text": "애정 표현은 서툴고 무뚝뚝한 편이다.", "dimensions": ["affection_expression"], "reverse": true },
+
+    { "id": "jealousy_1", "type": "likert", "text": "연인이 이성 친구와 단둘이 만나면 신경이 많이 쓰인다.", "dimensions": ["jealousy_sensitivity"], "reverse": false },
+    { "id": "jealousy_2", "type": "likert", "text": "연인의 이성 친구 관계는 크게 신경 쓰지 않는다.", "dimensions": ["jealousy_sensitivity"], "reverse": true },
+
+    { "id": "independence_1", "type": "likert", "text": "연애 중에도 내 커리어·자기계발이 항상 우선순위 상위에 있다.", "dimensions": ["independence"], "reverse": false },
+    { "id": "independence_2", "type": "likert", "text": "연애를 시작하면 생활의 중심이 자연스럽게 상대에게 맞춰진다.", "dimensions": ["independence"], "reverse": true },
+
+    { "id": "free_1", "type": "free_text", "text": "최근 연애(또는 썸)에서 가장 크게 부딪혔던 순간이 있다면 적어줘. (안 적어도 괜찮아)", "dimensions": [], "optional": true },
+    { "id": "free_2", "type": "free_text", "text": "상대에게 가장 바라는 게 있다면? (안 적어도 괜찮아)", "dimensions": [], "optional": true }
+  ]
+}
