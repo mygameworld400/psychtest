@@ -1,244 +1,183 @@
+:root {
+  --bg: #fbf6f2;
+  --surface: #ffffff;
+  --surface-soft: #fff4ef;
+  --ink: #2a2220;
+  --ink-soft: #6b5f5c;
+  --ink-faint: #a89b97;
+  --accent: #e8637a;
+  --accent-ink: #ffffff;
+  --accent-soft: #fde6ea;
+  --line: #ece2dd;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --shadow-card: 0 2px 10px rgba(60, 40, 35, 0.06), 0 10px 30px rgba(60, 40, 35, 0.04);
+  --font: 'PretendardVariable', -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
-  background: #fafafa;
-  color: #222;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+p {
+  line-height: 1.6;
+}
+
+button {
+  font-family: inherit;
 }
 
 .page {
   max-width: 480px;
   margin: 0 auto;
-  padding: 32px 20px;
+  padding: 40px 20px 80px;
+  min-height: 100vh;
+}
+
+/* ── 공통 버튼 ─────────────────────────────────────────── */
+
+.btn-primary,
+.primary,
+.page-result button,
+.reason-box .submit,
+.compat-form button,
+.page-intermission button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  border: none;
+  background: var(--ink);
+  color: #fff;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-primary:hover,
+.primary:hover,
+.page-result button:hover,
+.reason-box .submit:hover,
+.compat-form button:hover,
+.page-intermission button:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.reason-box .submit:disabled {
+  background: var(--line);
+  color: var(--ink-faint);
+  transform: none;
+}
+
+/* ── 홈 ───────────────────────────────────────────────── */
+
+.page-home h1 {
+  font-size: 30px;
+}
+
+.page-home > p {
+  color: var(--ink-soft);
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .test-list {
   list-style: none;
   padding: 0;
+  margin: 28px 0 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .test-list a {
   display: block;
-  padding: 14px 16px;
-  background: #fff;
-  border-radius: 12px;
+  padding: 20px;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
   text-decoration: none;
-  color: #222;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--line);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.test-list a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(60, 40, 35, 0.1), 0 16px 36px rgba(60, 40, 35, 0.07);
 }
 
 .link-secondary {
   display: inline-block;
-  margin-top: 20px;
-  color: #666;
+  margin-top: 24px;
+  color: var(--ink-soft);
   text-decoration: none;
-}
-
-.progress {
-  color: #999;
   font-size: 14px;
-  margin-bottom: 8px;
+  font-weight: 500;
 }
 
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
+.link-secondary:hover {
+  color: var(--accent);
 }
 
-.options button {
-  padding: 14px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 12px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.options button:hover {
-  background: #f5f5f5;
-}
-
-.result-type {
-  font-size: 13px;
-  color: #999;
-  letter-spacing: 2px;
-}
-
-.page-result button {
-  padding: 12px 20px;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 16px;
-}
-
-.compat-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 20px 0;
-}
-
-.compat-form input {
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-.compat-form button {
-  padding: 12px;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.compat-card {
-  text-align: center;
-  padding: 24px;
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-}
-
-.compat-types {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  font-size: 14px;
-  color: #666;
-}
-
-.compat-score {
-  font-size: 40px;
-  font-weight: 700;
-  margin: 12px 0;
-}
-
-.error {
-  color: #d33;
-}
-
-.page-ai-test .intro {
-  white-space: pre-line;
-  color: #444;
-  line-height: 1.6;
-}
-
-.page-ai-test .warning {
-  font-size: 13px;
-  color: #b8860b;
-  background: #fffbea;
-  padding: 10px 12px;
-  border-radius: 10px;
-}
-
-.choices {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.choice {
-  padding: 14px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 12px;
-  font-size: 15px;
-  text-align: left;
-  cursor: pointer;
-}
-
-.choice.selected {
-  border-color: #222;
-  background: #f5f5f5;
-}
-
-.reason-box {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.reason-box label {
-  font-size: 14px;
-  color: #666;
-}
-
-.reason-box textarea {
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-family: inherit;
-  font-size: 15px;
-  resize: vertical;
-}
-
-.reason-box .submit {
-  padding: 12px;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.reason-box .submit:disabled {
-  background: #ccc;
-  cursor: not-allowed;
-}
-
-.page-analyzing {
-  text-align: center;
-  padding-top: 120px;
-  color: #666;
-}
-
-.ai-analysis {
-  margin-top: 12px;
-  line-height: 1.8;
-  white-space: pre-line;
-}
-
-.ai-analysis p {
-  margin: 0 0 8px;
-}
-
-.ai-analysis .summary {
-  font-weight: 700;
-  font-size: 17px;
-  margin-top: 16px;
-}
-
-/* ── ME 설문 ─────────────────────────────────────────── */
+/* ── 진행률 / 문항 공통 ──────────────────────────────────── */
 
 .progress-bar {
-  height: 4px;
-  background: #eee;
-  border-radius: 2px;
+  height: 5px;
+  background: var(--line);
+  border-radius: 3px;
   overflow: hidden;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .progress-bar-fill {
   height: 100%;
-  background: #222;
-  transition: width 0.2s ease;
+  background: var(--accent);
+  border-radius: 3px;
+  transition: width 0.25s ease;
 }
 
+.progress {
+  color: var(--ink-faint);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.page-test h2,
+.page-ai-test h2,
+.page-me-test h2 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.options,
 .likert {
   display: flex;
   flex-direction: column;
@@ -246,17 +185,114 @@ body {
   margin-top: 24px;
 }
 
-.likert button {
-  padding: 14px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 12px;
+.options button,
+.likert button,
+.choice {
+  padding: 16px 18px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  border-radius: var(--radius-md);
   font-size: 15px;
+  font-weight: 500;
+  text-align: left;
   cursor: pointer;
+  color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
 }
 
-.likert button:hover {
-  background: #f5f5f5;
+.options button:hover,
+.likert button:hover,
+.choice:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.choice.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.back-link {
+  display: block;
+  margin-top: 28px;
+  background: none;
+  border: none;
+  color: var(--ink-faint);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* ── 인터미션 ───────────────────────────────────────────── */
+
+.page-intermission {
+  text-align: center;
+  padding-top: 160px;
+  color: var(--ink);
+}
+
+.page-intermission p {
+  margin: 4px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.page-intermission .sub {
+  color: var(--ink-faint);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+/* ── AI 테스트 ───────────────────────────────────────────── */
+
+.page-ai-test h1 {
+  font-size: 26px;
+}
+
+.page-ai-test .intro {
+  white-space: pre-line;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-top: 14px;
+  font-size: 15px;
+}
+
+.page-ai-test .warning {
+  font-size: 13px;
+  color: #a15c2e;
+  background: #fff4e6;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  margin: 16px 0 28px;
+}
+
+.reason-box {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reason-box label {
+  font-size: 14px;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.reason-box textarea {
+  padding: 14px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 15px;
+  resize: vertical;
+  background: var(--surface);
+}
+
+.reason-box textarea:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .free-text-actions {
@@ -269,110 +305,184 @@ body {
 }
 
 .free-text-actions .ghost {
-  padding: 12px 16px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 10px;
+  padding: 14px 18px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
   cursor: pointer;
-  color: #666;
+  color: var(--ink-soft);
+  font-weight: 600;
 }
 
-.back-link {
-  display: block;
-  margin-top: 24px;
-  background: none;
-  border: none;
-  color: #999;
-  font-size: 14px;
-  cursor: pointer;
-  padding: 0;
-}
-
-.page-intermission {
+.page-analyzing {
   text-align: center;
   padding-top: 140px;
-  color: #444;
+  color: var(--ink-soft);
+  font-size: 15px;
+  font-weight: 500;
 }
 
-.page-intermission p {
-  margin: 4px 0;
+/* ── 결과 공통 ──────────────────────────────────────────── */
+
+.result-type {
+  font-size: 12px;
+  color: var(--ink-faint);
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.page-intermission .sub {
-  color: #999;
+.page-result h2 {
+  font-size: 28px;
+  margin: 8px 0 12px;
+}
+
+.page-result p {
+  color: var(--ink-soft);
+  font-size: 15px;
+}
+
+.ai-analysis {
+  margin-top: 16px;
+  line-height: 1.85;
+  white-space: pre-line;
+  font-size: 15px;
+  color: var(--ink);
+}
+
+.ai-analysis p {
+  margin: 0 0 10px;
+}
+
+.ai-analysis .summary {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+  color: var(--accent);
+}
+
+/* ── 궁합 ───────────────────────────────────────────────── */
+
+.compat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.compat-form input {
+  padding: 14px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  background: var(--surface);
+}
+
+.compat-form input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.compat-card {
+  text-align: center;
+  padding: 28px 20px;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  border: 1px solid var(--line);
+}
+
+.compat-types {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   font-size: 14px;
-  margin-bottom: 24px;
+  color: var(--ink-soft);
+  font-weight: 500;
 }
 
-.page-intermission button {
-  padding: 12px 24px;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
+.compat-score {
+  font-size: 44px;
+  font-weight: 800;
+  margin: 14px 0;
+  color: var(--accent);
+}
+
+.error {
+  color: #d33;
+  font-size: 14px;
+}
+
+/* ── ME 결과 ───────────────────────────────────────────── */
+
+.page-me-result h1 {
+  font-size: 28px;
 }
 
 .page-me-result .sub {
-  color: #666;
+  color: var(--ink-soft);
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
 .dimension-cards {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin: 20px 0;
+  gap: 14px;
+  margin: 28px 0;
 }
 
 .dimension-card {
-  background: linear-gradient(135deg, #fff7f2 0%, #fdeef0 100%);
-  border-radius: 16px;
-  padding: 20px;
+  background: linear-gradient(160deg, var(--surface) 0%, var(--surface-soft) 100%);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-card);
 }
 
 .dimension-name {
-  font-size: 13px;
-  color: #a86b6b;
-  letter-spacing: 1px;
+  font-size: 12px;
+  color: var(--accent);
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .dimension-score {
-  font-size: 40px;
-  font-weight: 700;
-  color: #33232a;
-  margin: 4px 0;
+  font-size: 44px;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 6px 0 4px;
+  letter-spacing: -0.02em;
 }
 
 .dimension-desc {
-  color: #55424a;
-  line-height: 1.5;
-  margin: 0 0 8px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+  margin: 0 0 10px;
+  font-size: 14.5px;
 }
 
 .why-toggle {
   background: none;
   border: none;
-  color: #a86b6b;
+  color: var(--ink-faint);
   font-size: 13px;
+  font-weight: 600;
   cursor: pointer;
   padding: 0;
 }
 
-.why-detail {
-  margin-top: 8px;
-  font-size: 13px;
-  color: #7a6469;
-  line-height: 1.5;
+.why-toggle:hover {
+  color: var(--accent);
 }
 
-.primary {
-  padding: 12px 20px;
-  border: none;
-  background: #222;
-  color: #fff;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 8px;
+.why-detail {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
 }

@@ -5,8 +5,8 @@ import { aiTests } from '../data/tests/rewind'
 export default function Home() {
   return (
     <div className="page page-home">
-      <h1>심리테스트</h1>
-      <p>테스트하고 결과 링크로 친구·커플이랑 궁합도 확인해보세요.</p>
+      <h1>마음보고서</h1>
+      <p>네 답변에서 드러나는 진짜 패턴을 읽어드려요. 친구·연인이랑 궁합도 확인해보세요.</p>
       <ul className="test-list">
         <li>
           <Link to="/me/start">나의 연애 성향 (정밀 분석)</Link>
