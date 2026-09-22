@@ -7,6 +7,8 @@ import MeResult from './pages/MeResult'
 import MePair from './pages/MePair'
 import NowTest from './pages/NowTest'
 import NowResult from './pages/NowResult'
+import AfterTest from './pages/AfterTest'
+import AfterResult from './pages/AfterResult'
 import Result from './pages/Result'
 import Compat from './pages/Compat'
 
@@ -25,6 +27,8 @@ export default function App() {
         <Route path="/me/pair" element={<MePair />} />
         <Route path="/now/start" element={<NowTest />} />
         <Route path="/now/result/:assessmentId" element={<NowResult />} />
+        <Route path="/after/start" element={<AfterTest />} />
+        <Route path="/after/result/:assessmentId" element={<AfterResult />} />
         <Route path="/result/:id" element={<Result />} />
         <Route path="/compat" element={<Compat />} />
         <Route path="*" element={<Home />} />

@@ -1,0 +1,676 @@
+{
+  "version": "after.v1",
+  "product": "AFTER",
+  "dimensions": [
+    {
+      "key": "재결합욕구",
+      "label": "재결합욕구"
+    },
+    {
+      "key": "관계복구욕구",
+      "label": "관계복구욕구"
+    },
+    {
+      "key": "외로움영향",
+      "label": "외로움영향"
+    },
+    {
+      "key": "생활공백영향",
+      "label": "생활공백영향"
+    },
+    {
+      "key": "상대자체애정",
+      "label": "상대자체애정"
+    },
+    {
+      "key": "습관성그리움",
+      "label": "습관성그리움"
+    },
+    {
+      "key": "과거관계미화",
+      "label": "과거관계미화"
+    },
+    {
+      "key": "추억의존",
+      "label": "추억의존"
+    },
+    {
+      "key": "동일갈등재발위험",
+      "label": "동일갈등재발위험"
+    },
+    {
+      "key": "과거문제해결가능성",
+      "label": "과거문제해결가능성"
+    },
+    {
+      "key": "재결합준비도",
+      "label": "재결합준비도"
+    },
+    {
+      "key": "후회강도",
+      "label": "후회강도"
+    },
+    {
+      "key": "자기비난",
+      "label": "자기비난"
+    },
+    {
+      "key": "상대비난",
+      "label": "상대비난"
+    },
+    {
+      "key": "미해결감정",
+      "label": "미해결감정"
+    },
+    {
+      "key": "죄책감",
+      "label": "죄책감"
+    },
+    {
+      "key": "분노잔존",
+      "label": "분노잔존"
+    },
+    {
+      "key": "확인욕구",
+      "label": "확인욕구"
+    },
+    {
+      "key": "연락충동",
+      "label": "연락충동"
+    },
+    {
+      "key": "거절민감도",
+      "label": "거절민감도"
+    },
+    {
+      "key": "재접촉신호",
+      "label": "재접촉신호"
+    },
+    {
+      "key": "상실불안",
+      "label": "상실불안"
+    },
+    {
+      "key": "자존심회복욕구",
+      "label": "자존심회복욕구"
+    },
+    {
+      "key": "상대거리두기신호",
+      "label": "상대거리두기신호"
+    },
+    {
+      "key": "현재연락적정도",
+      "label": "현재연락적정도"
+    },
+    {
+      "key": "미련잔존",
+      "label": "미련잔존"
+    },
+    {
+      "key": "새로운관계준비도",
+      "label": "새로운관계준비도"
+    },
+    {
+      "key": "관계종료수용도",
+      "label": "관계종료수용도"
+    },
+    {
+      "key": "신뢰회복난이도",
+      "label": "신뢰회복난이도"
+    },
+    {
+      "key": "상실감",
+      "label": "상실감"
+    }
+  ],
+  "items": [
+    {
+      "id": "AFTER_001",
+      "type": "likert",
+      "text": "다시 만날 수 있다면 만나고 싶다",
+      "dimensions": [
+        "재결합욕구",
+        "관계복구욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_002",
+      "type": "likert",
+      "text": "그 사람이 아니라도 누군가 곁에 있었으면 좋겠다는 생각이 든다",
+      "dimensions": [
+        "외로움영향",
+        "생활공백영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_003",
+      "type": "likert",
+      "text": "그 사람의 성격과 모습 자체가 아직 좋다",
+      "dimensions": [
+        "상대자체애정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_004",
+      "type": "likert",
+      "text": "함께하던 일상이 사라진 것이 특히 힘들다",
+      "dimensions": [
+        "생활공백영향",
+        "습관성그리움"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_005",
+      "type": "likert",
+      "text": "좋았던 기억이 자꾸 떠오르고 나쁜 기억은 흐려지는 느낌이 있다",
+      "dimensions": [
+        "과거관계미화",
+        "추억의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_006",
+      "type": "likert",
+      "text": "헤어진 이유를 생각하면 다시 만나도 같은 문제가 생길 것 같다",
+      "dimensions": [
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_007",
+      "type": "likert",
+      "text": "이별 원인을 해결할 구체적인 방법이 있다고 생각한다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_008",
+      "type": "likert",
+      "text": "내가 다르게 행동했으면 헤어지지 않았을 것 같아 후회된다",
+      "dimensions": [
+        "후회강도",
+        "자기비난"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_009",
+      "type": "likert",
+      "text": "상대가 조금만 달랐어도 관계는 끝나지 않았을 것 같다",
+      "dimensions": [
+        "상대비난"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_010",
+      "type": "likert",
+      "text": "상대에게 제대로 하지 못한 말이 남아 있다",
+      "dimensions": [
+        "미해결감정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_011",
+      "type": "likert",
+      "text": "상대에게 사과하고 싶은 것이 있다",
+      "dimensions": [
+        "죄책감",
+        "미해결감정"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_012",
+      "type": "likert",
+      "text": "상대에게 아직 화가 많이 남아 있다",
+      "dimensions": [
+        "분노잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_013",
+      "type": "likert",
+      "text": "상대의 SNS나 상태를 확인하고 싶은 마음이 든다",
+      "dimensions": [
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_014",
+      "type": "likert",
+      "text": "메시지를 보내고 싶은 충동을 자주 느낀다",
+      "dimensions": [
+        "연락충동"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_015",
+      "type": "likert",
+      "text": "연락하면 어떤 반응이 올지 계속 상상한다",
+      "dimensions": [
+        "연락충동",
+        "거절민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_016",
+      "type": "likert",
+      "text": "상대가 먼저 연락해주길 기다리고 있다",
+      "dimensions": [
+        "재접촉신호",
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_017",
+      "type": "likert",
+      "text": "상대에게 거절당하는 상황을 상상하면 견디기 어렵다",
+      "dimensions": [
+        "거절민감도",
+        "상실불안"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_018",
+      "type": "likert",
+      "text": "상대가 완전히 나를 잊을까 봐 두렵다",
+      "dimensions": [
+        "상실불안"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_019",
+      "type": "likert",
+      "text": "다시 만나고 싶은 마음에 자존심이 상한 것도 영향을 주는 것 같다",
+      "dimensions": [
+        "자존심회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_020",
+      "type": "likert",
+      "text": "상대가 나 없이 잘 지내는 모습을 보면 억울하거나 자존심이 상할 것 같다",
+      "dimensions": [
+        "자존심회복욕구",
+        "분노잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_021",
+      "type": "likert",
+      "text": "다시 만나면 예전보다 잘할 자신이 있다",
+      "dimensions": [
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_022",
+      "type": "likert",
+      "text": "다시 만나기 전에 반드시 해결돼야 할 문제가 무엇인지 알고 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_023",
+      "type": "likert",
+      "text": "그 문제를 해결하기 위해 내가 바꿀 행동이 구체적으로 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_024",
+      "type": "likert",
+      "text": "상대도 변화할 의지가 있을 것이라는 근거가 있다",
+      "dimensions": [
+        "재접촉신호",
+        "과거문제해결가능성"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_025",
+      "type": "likert",
+      "text": "지금 연락하면 상대가 부담스러워할 가능성이 크다고 생각한다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_026",
+      "type": "likert",
+      "text": "마지막 대화에서 상대는 다시 이야기할 여지를 남겼다",
+      "dimensions": [
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_027",
+      "type": "likert",
+      "text": "상대가 명확하게 더 이상 연락하지 말라고 했다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_028",
+      "type": "likert",
+      "text": "현재 차단되어 있거나 연락 경로가 거의 막혀 있다",
+      "dimensions": [
+        "상대거리두기신호",
+        "현재연락적정도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_029",
+      "type": "likert",
+      "text": "헤어진 뒤에도 서로 필요한 연락은 비교적 편하게 하고 있다",
+      "dimensions": [
+        "재접촉신호",
+        "현재연락적정도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_030",
+      "type": "likert",
+      "text": "상대가 먼저 안부를 묻거나 대화를 이어간 적이 있다",
+      "dimensions": [
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_031",
+      "type": "likert",
+      "text": "내가 외로운 날에 특히 그 사람이 더 생각난다",
+      "dimensions": [
+        "외로움영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_032",
+      "type": "likert",
+      "text": "바쁜 날에는 상대 생각이 크게 줄어든다",
+      "dimensions": [
+        "생활공백영향",
+        "외로움영향"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_033",
+      "type": "likert",
+      "text": "다른 사람을 만나도 자꾸 전 연인과 비교하게 된다",
+      "dimensions": [
+        "미련잔존",
+        "추억의존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_034",
+      "type": "likert",
+      "text": "새로운 사람을 알아갈 생각을 하면 죄책감이 든다",
+      "dimensions": [
+        "미련잔존",
+        "새로운관계준비도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_035",
+      "type": "likert",
+      "text": "전 연인이 아닌 새로운 관계를 시작할 가능성도 열어둘 수 있다",
+      "dimensions": [
+        "새로운관계준비도",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_036",
+      "type": "likert",
+      "text": "헤어졌다는 사실 자체를 아직 받아들이기 어렵다",
+      "dimensions": [
+        "관계종료수용도"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_037",
+      "type": "likert",
+      "text": "그 사람이 없어도 내 일상을 다시 만들 수 있을 것 같다",
+      "dimensions": [
+        "관계종료수용도",
+        "새로운관계준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_038",
+      "type": "likert",
+      "text": "다시 만나지 못하더라도 이 경험에서 얻은 것이 있다고 생각한다",
+      "dimensions": [
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_039",
+      "type": "likert",
+      "text": "상대가 먼저 돌아온다면 이유를 따지기보다 바로 만나고 싶다",
+      "dimensions": [
+        "재결합욕구",
+        "거절민감도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_040",
+      "type": "likert",
+      "text": "다시 만나더라도 이전보다 천천히 관계를 다시 쌓아야 한다고 생각한다",
+      "dimensions": [
+        "재결합준비도",
+        "신뢰회복난이도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_041",
+      "type": "likert",
+      "text": "한 번 깨진 신뢰를 다시 만드는 것은 매우 어렵다고 느낀다",
+      "dimensions": [
+        "신뢰회복난이도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_042",
+      "type": "likert",
+      "text": "헤어진 원인이 외도나 반복 거짓말처럼 신뢰 문제였다",
+      "dimensions": [
+        "신뢰회복난이도",
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_043",
+      "type": "likert",
+      "text": "헤어진 원인이 주로 상황이나 타이밍 문제였다고 생각한다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "동일갈등재발위험"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_044",
+      "type": "likert",
+      "text": "헤어진 원인이 서로의 기본 가치관 차이였다고 생각한다",
+      "dimensions": [
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_045",
+      "type": "likert",
+      "text": "상대와 다시 만나지 못하면 내가 패배한 것 같은 느낌이 든다",
+      "dimensions": [
+        "자존심회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_046",
+      "type": "likert",
+      "text": "상대에게 내가 잘 지내는 모습을 보여주고 싶은 마음이 있다",
+      "dimensions": [
+        "자존심회복욕구",
+        "확인욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_047",
+      "type": "likert",
+      "text": "내가 먼저 연락하지 않으면 영영 끝날 것 같아 불안하다",
+      "dimensions": [
+        "상실불안",
+        "연락충동"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_048",
+      "type": "likert",
+      "text": "연락을 하지 않는 것이 지금은 서로에게 더 좋을 수 있다고 생각한다",
+      "dimensions": [
+        "현재연락적정도",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_049",
+      "type": "likert",
+      "text": "상대의 행복을 생각하면 꼭 나와 다시 만나야 한다고 생각하지는 않는다",
+      "dimensions": [
+        "상대자체애정",
+        "관계종료수용도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_050",
+      "type": "likert",
+      "text": "상대를 다시 만나고 싶은 이유를 한 문장으로 설명할 수 있다",
+      "dimensions": [
+        "재결합준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_051",
+      "type": "likert",
+      "text": "다시 만나면 무엇을 바꿀지 둘 사이에 실제로 이야기한 적이 있다",
+      "dimensions": [
+        "과거문제해결가능성",
+        "재접촉신호"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_052",
+      "type": "likert",
+      "text": "상대가 그리울 때 좋은 순간뿐 아니라 힘들었던 순간도 같이 떠올린다",
+      "dimensions": [
+        "과거관계미화"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_053",
+      "type": "likert",
+      "text": "이별 뒤 내 생활 리듬이 크게 무너졌다",
+      "dimensions": [
+        "생활공백영향",
+        "상실감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_054",
+      "type": "likert",
+      "text": "지금의 감정이 시간이 지나면 달라질 수 있다는 생각을 할 수 있다",
+      "dimensions": [
+        "관계종료수용도",
+        "새로운관계준비도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "AFTER_055",
+      "type": "likert",
+      "text": "그 사람이 돌아오지 않아도 결국 괜찮아질 수 있다고 믿는다",
+      "dimensions": [
+        "관계종료수용도",
+        "상실불안"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "AFTER_056",
+      "type": "likert",
+      "text": "다시 만나고 싶은 마음과 다시 만나면 힘들 것 같은 마음이 동시에 있다",
+      "dimensions": [
+        "미해결감정",
+        "재결합욕구",
+        "동일갈등재발위험"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "free_1",
+      "type": "free_text",
+      "text": "헤어진 이유를 자유롭게 적어줘. (안 적어도 괜찮아)",
+      "dimensions": [],
+      "optional": true
+    }
+  ]
+}
