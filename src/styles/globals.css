@@ -572,3 +572,22 @@ button {
   line-height: 1.5;
   margin: 0;
 }
+
+.now-headline {
+  margin: 20px 0;
+  padding: 18px 20px;
+  background: var(--accent-soft);
+  border-radius: var(--radius-md);
+}
+
+.now-headline p {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.now-headline p + p {
+  margin-top: 10px;
+}

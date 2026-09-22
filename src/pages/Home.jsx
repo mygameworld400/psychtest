@@ -11,6 +11,9 @@ export default function Home() {
         <li>
           <Link to="/me/start">나의 연애 성향 (정밀 분석)</Link>
         </li>
+        <li>
+          <Link to="/now/start">현재 관계 정밀진단</Link>
+        </li>
         {Object.values(aiTests).map((t) => (
           <li key={t.slug}>
             <Link to={`/ai-test/${t.slug}`}>{t.title}</Link>

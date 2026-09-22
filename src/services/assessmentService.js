@@ -6,24 +6,24 @@ function genId() {
   return crypto.randomUUID().replace(/-/g, '').slice(0, 8)
 }
 
-/** responses: [{ questionId, value? , freeText? }] — value는 likert 1~5,
- * freeText는 자유서술 문항용. 점수 계산은 scoringEngine이 전담한다. */
-export async function submitMeAssessment(responses) {
+/** ME/NOW/AFTER 공용 제출 함수. responses: [{ questionId, value? , freeText? }] —
+ * value는 likert 1~5, freeText는 자유서술 문항용. 점수 계산은 scoringEngine이 전담한다. */
+export async function submitAssessment(productType, questionBank, responses) {
   const id = genId()
   const likertResponses = responses
     .filter((r) => r.value !== undefined && r.value !== null)
     .map((r) => ({ questionId: r.questionId, value: r.value }))
 
-  const dimensionScores = computeDimensionScores(meQuestionBank, likertResponses)
+  const dimensionScores = computeDimensionScores(questionBank, likertResponses)
   const priority = selectPriorityDimensions(dimensionScores, { limit: 10 })
 
   if (!supabase) return { id, dimensionScores, priority }
 
   await supabase.from('pt_assessments').insert({
     id,
-    product_type: 'ME',
+    product_type: productType,
     status: 'completed',
-    question_version: meQuestionBank.version,
+    question_version: questionBank.version,
     scoring_version: 'v1',
     completed_at: new Date().toISOString(),
   })
@@ -55,7 +55,11 @@ export async function submitMeAssessment(responses) {
   return { id, dimensionScores, priority }
 }
 
-export async function getMeResult(id) {
+export function submitMeAssessment(responses) {
+  return submitAssessment('ME', meQuestionBank, responses)
+}
+
+export async function getAssessmentResult(id) {
   if (!supabase) return null
   const { data: assessment, error: aErr } = await supabase
     .from('pt_assessments')
@@ -73,3 +77,5 @@ export async function getMeResult(id) {
 
   return { assessment, scores: scores ?? [] }
 }
+
+export const getMeResult = getAssessmentResult

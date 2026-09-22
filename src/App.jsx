@@ -5,6 +5,8 @@ import AiTest from './pages/AiTest'
 import MeTest from './pages/MeTest'
 import MeResult from './pages/MeResult'
 import MePair from './pages/MePair'
+import NowTest from './pages/NowTest'
+import NowResult from './pages/NowResult'
 import Result from './pages/Result'
 import Compat from './pages/Compat'
 
@@ -21,6 +23,8 @@ export default function App() {
         <Route path="/me/start" element={<MeTest />} />
         <Route path="/me/result/:assessmentId" element={<MeResult />} />
         <Route path="/me/pair" element={<MePair />} />
+        <Route path="/now/start" element={<NowTest />} />
+        <Route path="/now/result/:assessmentId" element={<NowResult />} />
         <Route path="/result/:id" element={<Result />} />
         <Route path="/compat" element={<Compat />} />
         <Route path="*" element={<Home />} />

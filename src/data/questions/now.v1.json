@@ -1,0 +1,714 @@
+{
+  "version": "now.v1",
+  "product": "NOW",
+  "dimensions": [
+    {
+      "key": "연락피로",
+      "label": "연락피로"
+    },
+    {
+      "key": "관계에너지방전",
+      "label": "관계에너지방전"
+    },
+    {
+      "key": "만남의무감",
+      "label": "만남의무감"
+    },
+    {
+      "key": "관계압박감",
+      "label": "관계압박감"
+    },
+    {
+      "key": "정서적거리욕구",
+      "label": "정서적거리욕구"
+    },
+    {
+      "key": "대화피로",
+      "label": "대화피로"
+    },
+    {
+      "key": "관계무기력",
+      "label": "관계무기력"
+    },
+    {
+      "key": "혼자회복욕구",
+      "label": "혼자회복욕구"
+    },
+    {
+      "key": "동굴침입거부감",
+      "label": "동굴침입거부감"
+    },
+    {
+      "key": "감정소진",
+      "label": "감정소진"
+    },
+    {
+      "key": "상대그리움",
+      "label": "상대그리움"
+    },
+    {
+      "key": "애정잔존",
+      "label": "애정잔존"
+    },
+    {
+      "key": "상대행복관심",
+      "label": "상대행복관심"
+    },
+    {
+      "key": "정서적애착",
+      "label": "정서적애착"
+    },
+    {
+      "key": "설렘잔존",
+      "label": "설렘잔존"
+    },
+    {
+      "key": "신체적거리욕구",
+      "label": "신체적거리욕구"
+    },
+    {
+      "key": "관계종료의사",
+      "label": "관계종료의사"
+    },
+    {
+      "key": "이별사고빈도",
+      "label": "이별사고빈도"
+    },
+    {
+      "key": "관계유지의지",
+      "label": "관계유지의지"
+    },
+    {
+      "key": "관계회복의지",
+      "label": "관계회복의지"
+    },
+    {
+      "key": "상대변화기대",
+      "label": "상대변화기대"
+    },
+    {
+      "key": "관계개선기대",
+      "label": "관계개선기대"
+    },
+    {
+      "key": "누적서운함",
+      "label": "누적서운함"
+    },
+    {
+      "key": "미해결갈등",
+      "label": "미해결갈등"
+    },
+    {
+      "key": "신뢰손상",
+      "label": "신뢰손상"
+    },
+    {
+      "key": "상대말불신",
+      "label": "상대말불신"
+    },
+    {
+      "key": "감시욕구",
+      "label": "감시욕구"
+    },
+    {
+      "key": "방어수준",
+      "label": "방어수준"
+    },
+    {
+      "key": "대화거부감",
+      "label": "대화거부감"
+    },
+    {
+      "key": "분노",
+      "label": "분노"
+    },
+    {
+      "key": "실망",
+      "label": "실망"
+    },
+    {
+      "key": "서운함",
+      "label": "서운함"
+    },
+    {
+      "key": "미안함",
+      "label": "미안함"
+    },
+    {
+      "key": "죄책감",
+      "label": "죄책감"
+    },
+    {
+      "key": "두려움",
+      "label": "두려움"
+    },
+    {
+      "key": "관계안전감",
+      "label": "관계안전감"
+    },
+    {
+      "key": "미래상상가능도",
+      "label": "미래상상가능도"
+    },
+    {
+      "key": "결혼상상가능도",
+      "label": "결혼상상가능도"
+    },
+    {
+      "key": "장기투자의향",
+      "label": "장기투자의향"
+    }
+  ],
+  "items": [
+    {
+      "id": "NOW_001",
+      "type": "likert",
+      "text": "요즘 연인과 연락하는 것 자체가 피곤할 때가 많다",
+      "dimensions": [
+        "연락피로",
+        "관계에너지방전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_002",
+      "type": "likert",
+      "text": "만나기로 한 날이 다가오면 기대보다 부담이 먼저 든다",
+      "dimensions": [
+        "만남의무감",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_003",
+      "type": "likert",
+      "text": "상대의 메시지를 보고도 답장을 미루고 싶을 때가 많다",
+      "dimensions": [
+        "연락피로",
+        "정서적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_004",
+      "type": "likert",
+      "text": "상대와 대화하면 비슷한 이야기를 또 반복하게 될 것 같다",
+      "dimensions": [
+        "대화피로",
+        "관계무기력"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_005",
+      "type": "likert",
+      "text": "요즘은 혼자 있을 때 가장 편하다",
+      "dimensions": [
+        "혼자회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_006",
+      "type": "likert",
+      "text": "상대가 나에게 계속 이유를 묻거나 다가오면 더 멀어지고 싶다",
+      "dimensions": [
+        "동굴침입거부감",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_007",
+      "type": "likert",
+      "text": "상대가 싫다기보다 그냥 아무것도 신경 쓰고 싶지 않다",
+      "dimensions": [
+        "감정소진",
+        "혼자회복욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_008",
+      "type": "likert",
+      "text": "상대를 만나지 않는 날에도 그 사람이 보고 싶다",
+      "dimensions": [
+        "상대그리움",
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_009",
+      "type": "likert",
+      "text": "상대가 힘들다고 하면 여전히 걱정되고 도와주고 싶다",
+      "dimensions": [
+        "상대행복관심",
+        "정서적애착"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_010",
+      "type": "likert",
+      "text": "예전처럼 상대에게 설레는 느낌은 많이 줄었다",
+      "dimensions": [
+        "설렘잔존"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_011",
+      "type": "likert",
+      "text": "스킨십이나 신체적 가까움이 부담스럽게 느껴질 때가 있다",
+      "dimensions": [
+        "신체적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_012",
+      "type": "likert",
+      "text": "상대에게 아직 애정이 있다고 느낀다",
+      "dimensions": [
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_013",
+      "type": "likert",
+      "text": "상대와의 관계를 완전히 끝내는 모습을 상상하면 마음이 편해진다",
+      "dimensions": [
+        "관계종료의사",
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_014",
+      "type": "likert",
+      "text": "헤어지는 생각을 최근 자주 해봤다",
+      "dimensions": [
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_015",
+      "type": "likert",
+      "text": "문제가 해결된다면 이 관계를 계속 이어가고 싶다",
+      "dimensions": [
+        "관계유지의지",
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_016",
+      "type": "likert",
+      "text": "상대와 다시 잘 지낼 방법을 찾아보고 싶은 마음이 있다",
+      "dimensions": [
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_017",
+      "type": "likert",
+      "text": "아무리 이야기해도 상대는 달라지지 않을 것 같다",
+      "dimensions": [
+        "상대변화기대"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_018",
+      "type": "likert",
+      "text": "우리 관계는 노력하면 좋아질 수 있다고 생각한다",
+      "dimensions": [
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_019",
+      "type": "likert",
+      "text": "싸우는 것조차 이제는 귀찮게 느껴진다",
+      "dimensions": [
+        "관계무기력",
+        "감정소진"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_020",
+      "type": "likert",
+      "text": "상대에게 쌓인 서운함이 한두 가지가 아니다",
+      "dimensions": [
+        "누적서운함"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_021",
+      "type": "likert",
+      "text": "예전에 끝난 문제라고 했지만 사실 마음속에 아직 남아 있다",
+      "dimensions": [
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_022",
+      "type": "likert",
+      "text": "상대의 말을 예전만큼 그대로 믿기 어렵다",
+      "dimensions": [
+        "신뢰손상",
+        "상대말불신"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_023",
+      "type": "likert",
+      "text": "상대가 뭘 하는지 확인하고 싶은 마음이 전보다 커졌다",
+      "dimensions": [
+        "감시욕구",
+        "신뢰손상"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_024",
+      "type": "likert",
+      "text": "대화를 시작하면 내가 공격받을 것 같아 방어적으로 된다",
+      "dimensions": [
+        "방어수준",
+        "대화거부감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_025",
+      "type": "likert",
+      "text": "상대와 이야기를 해도 결국 내가 이해받지 못할 것 같다",
+      "dimensions": [
+        "대화거부감",
+        "관계무기력"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_026",
+      "type": "likert",
+      "text": "상대가 잘못을 인정해도 쉽게 마음이 풀리지 않는다",
+      "dimensions": [
+        "미해결갈등",
+        "신뢰손상"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_027",
+      "type": "likert",
+      "text": "최근 상대에게 화가 자주 난다",
+      "dimensions": [
+        "분노"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_028",
+      "type": "likert",
+      "text": "상대에게 기대했던 만큼의 모습을 보지 못해 실망했다",
+      "dimensions": [
+        "실망"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_029",
+      "type": "likert",
+      "text": "내가 참거나 양보한 것이 많다고 느낀다",
+      "dimensions": [
+        "서운함",
+        "누적서운함"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_030",
+      "type": "likert",
+      "text": "내가 상대에게 상처를 줬다는 생각에 미안함이 있다",
+      "dimensions": [
+        "미안함",
+        "죄책감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_031",
+      "type": "likert",
+      "text": "관계가 이렇게 된 데 내 책임도 크다고 생각한다",
+      "dimensions": [
+        "죄책감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_032",
+      "type": "likert",
+      "text": "상대가 나를 떠날까 봐 두렵다",
+      "dimensions": [
+        "두려움",
+        "관계안전감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_033",
+      "type": "likert",
+      "text": "상대와 함께하는 미래를 아직 상상할 수 있다",
+      "dimensions": [
+        "미래상상가능도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_034",
+      "type": "likert",
+      "text": "이 사람과 결혼하는 모습을 아직 상상할 수 있다",
+      "dimensions": [
+        "결혼상상가능도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_035",
+      "type": "likert",
+      "text": "이 관계를 위해 시간과 노력을 더 투자할 의향이 있다",
+      "dimensions": [
+        "장기투자의향",
+        "관계회복의지"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_036",
+      "type": "likert",
+      "text": "상대 앞에서 내 감정을 솔직하게 말해도 안전하다고 느낀다",
+      "dimensions": [
+        "관계안전감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_037",
+      "type": "likert",
+      "text": "상대가 내 감정을 무시하거나 축소한다고 느낀다",
+      "dimensions": [
+        "관계안전감"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_038",
+      "type": "likert",
+      "text": "요즘 연애 때문에 다른 일까지 지치는 느낌이 있다",
+      "dimensions": [
+        "관계에너지방전",
+        "감정소진"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_039",
+      "type": "likert",
+      "text": "상대에게 잘해줘야 한다는 생각 자체가 부담스럽다",
+      "dimensions": [
+        "관계압박감",
+        "만남의무감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_040",
+      "type": "likert",
+      "text": "상대에게서 연락이 안 오면 오히려 편할 때가 있다",
+      "dimensions": [
+        "정서적거리욕구",
+        "연락피로"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_041",
+      "type": "likert",
+      "text": "상대가 먼저 다가오면 반갑다",
+      "dimensions": [
+        "애정잔존",
+        "정서적애착"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_042",
+      "type": "likert",
+      "text": "상대와 좋은 시간을 보내면 관계를 포기하고 싶다는 생각이 줄어든다",
+      "dimensions": [
+        "관계회복의지",
+        "관계종료의사"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_043",
+      "type": "likert",
+      "text": "관계를 끝내기보다 현재 방식만 바꾸고 싶다",
+      "dimensions": [
+        "관계유지의지",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_044",
+      "type": "likert",
+      "text": "상대를 사랑하는지보다 내가 너무 지쳤다는 생각이 먼저 든다",
+      "dimensions": [
+        "감정소진",
+        "관계에너지방전"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_045",
+      "type": "likert",
+      "text": "상대가 변한다면 내 마음도 다시 좋아질 수 있을 것 같다",
+      "dimensions": [
+        "상대변화기대",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_046",
+      "type": "likert",
+      "text": "요즘 상대와의 문제를 주변 사람들에게 자주 이야기한다",
+      "dimensions": [
+        "관계압박감",
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_047",
+      "type": "likert",
+      "text": "같은 갈등이 다시 생길 거라고 예상한다",
+      "dimensions": [
+        "관계무기력",
+        "미해결갈등"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_048",
+      "type": "likert",
+      "text": "상대가 나를 이해하려고 노력하고 있다고 느낀다",
+      "dimensions": [
+        "관계안전감",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_049",
+      "type": "likert",
+      "text": "나도 상대를 이해하려고 노력할 여력이 남아 있다",
+      "dimensions": [
+        "관계회복의지",
+        "상대행복관심"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_050",
+      "type": "likert",
+      "text": "지금 잠깐 거리를 두면 오히려 관계가 나아질 것 같다",
+      "dimensions": [
+        "혼자회복욕구",
+        "정서적거리욕구"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_051",
+      "type": "likert",
+      "text": "상대가 며칠 연락하지 않아도 크게 아쉽지 않을 것 같다",
+      "dimensions": [
+        "상대그리움",
+        "정서적애착"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_052",
+      "type": "likert",
+      "text": "상대가 다른 사람을 만난다고 상상하면 여전히 마음이 아프다",
+      "dimensions": [
+        "정서적애착",
+        "애정잔존"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_053",
+      "type": "likert",
+      "text": "헤어진 뒤의 생활을 구체적으로 상상해본 적이 있다",
+      "dimensions": [
+        "관계종료의사",
+        "이별사고빈도"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_054",
+      "type": "likert",
+      "text": "상대와의 관계가 내 자존감에 부정적인 영향을 주고 있다",
+      "dimensions": [
+        "관계안전감",
+        "감정소진"
+      ],
+      "reverse": true
+    },
+    {
+      "id": "NOW_055",
+      "type": "likert",
+      "text": "지금 가장 원하는 것은 사랑 표현보다 편안함이다",
+      "dimensions": [
+        "혼자회복욕구",
+        "관계압박감"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "NOW_056",
+      "type": "likert",
+      "text": "현재 관계 상태를 그대로 몇 달 더 유지하는 것은 힘들 것 같다",
+      "dimensions": [
+        "관계에너지방전",
+        "관계개선기대"
+      ],
+      "reverse": false
+    },
+    {
+      "id": "free_1",
+      "type": "free_text",
+      "text": "지금 관계에서 가장 힘든 지점을 자유롭게 적어줘. (안 적어도 괜찮아)",
+      "dimensions": [],
+      "optional": true
+    }
+  ]
+}
