@@ -486,3 +486,89 @@ button {
   padding-top: 10px;
   border-top: 1px solid var(--line);
 }
+
+.result-code {
+  margin-top: 24px;
+  font-size: 13px;
+  color: var(--ink-faint);
+}
+
+.result-code code {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 3px 8px;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+/* ── ME 궁합 ───────────────────────────────────────────── */
+
+.page-me-pair h1 {
+  font-size: 28px;
+}
+
+.page-me-pair .sub {
+  color: var(--ink-soft);
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.pair-result {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.pair-type {
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 8px;
+}
+
+.pair-result .section-title {
+  text-align: left;
+}
+
+.pair-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.pair-list li {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  font-size: 14.5px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pair-list li > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pair-list-score {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.pair-friction {
+  color: var(--ink-soft);
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin: 0;
+}

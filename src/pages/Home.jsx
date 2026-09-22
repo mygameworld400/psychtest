@@ -22,8 +22,12 @@ export default function Home() {
           </li>
         ))}
       </ul>
+      <Link to="/me/pair" className="link-secondary">
+        나의 연애 성향 궁합 보기 →
+      </Link>
+      <br />
       <Link to="/compat" className="link-secondary">
-        결과 코드로 궁합 보기 →
+        다른 테스트 궁합 보기 →
       </Link>
     </div>
   )

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import meQuestionBank from '../data/questions/me.v1.json'
 import { interpretationFor } from '../data/questions/meInterpretations'
 import { selectPriorityDimensions } from '../services/scoringEngine'
@@ -55,9 +55,16 @@ export default function MeResult() {
         ))}
       </div>
 
+      <div className="result-code">
+        결과 코드 <code>{assessmentId}</code>
+      </div>
+
       <button className="primary" onClick={() => navigator.clipboard.writeText(shareUrl)}>
         결과 링크 복사
       </button>
+      <Link to={`/me/pair?a=${assessmentId}`} className="link-secondary">
+        이 결과로 궁합 보기 →
+      </Link>
     </div>
   )
 }
