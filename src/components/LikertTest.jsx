@@ -5,8 +5,9 @@ const LIKERT_LABELS = ['전혀 아니다', '아닌 편', '보통', '그런 편',
 const INTERMISSION_EVERY = 9
 
 /** ME/NOW/AFTER가 공유하는 Likert 설문 진행 컴포넌트. 문항은행과 제출 함수만
- * 다르고 진행 UX(진행률바·인터미션·뒤로가기·자유서술 스킵)는 동일하다. */
-export default function LikertTest({ questionBank, onSubmit, resultPathPrefix }) {
+ * 다르고 진행 UX(진행률바·인터미션·뒤로가기·자유서술 스킵)는 동일하다.
+ * nameToken을 넘기면 문항 텍스트의 "{name}"을 그 값으로 치환한다 (관찰형 프로필용). */
+export default function LikertTest({ questionBank, onSubmit, resultPathPrefix, nameToken }) {
   const navigate = useNavigate()
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState({})
@@ -18,6 +19,7 @@ export default function LikertTest({ questionBank, onSubmit, resultPathPrefix })
   const items = questionBank.items
   const item = items[index]
   const total = items.length
+  const itemText = nameToken ? item.text.replaceAll('{name}', nameToken) : item.text
 
   function goNext(nextAnswers) {
     const nextIndex = index + 1
@@ -92,7 +94,7 @@ export default function LikertTest({ questionBank, onSubmit, resultPathPrefix })
         {index + 1} / {total}
       </div>
 
-      <h2>{item.text}</h2>
+      <h2>{itemText}</h2>
 
       {item.type === 'likert' && (
         <div className="likert">
